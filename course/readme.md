@@ -1,0 +1,3 @@
+# Course Flow #
+
+* Linux basics
