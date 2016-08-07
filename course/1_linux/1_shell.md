@@ -9,10 +9,12 @@
     * files hold data
   * directory navigation
     * / goes between directories or folders
+    * open a file manager window on the side
     * ls, cd, pwd, mkdir, rmdir
+    * explain the .. operator (save . for later)
   * make a file
     * use the built in text editor
-    * cp, mv, less, cat
+    * cp, mv (rename and move), cat
 
 * input/output
   * how to deal with spaces? With double quotes
