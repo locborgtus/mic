@@ -39,7 +39,7 @@
  
 * write a script
   * make file
-  * use nano, not the gui editor. explain why.
+  * use nano, not the gui editor. explain why that sometimes you don't have the fancy desktop. all you have is the terminal.
   * use sh and file name to run it
 
 * homework
