@@ -21,11 +21,22 @@
   * echo: show something on the command line
   * another way to make a new file: redirection and echo
       * difference between > and >>
-  * pushd and popd
-  
+
+* more advanced 
+ * pushd and popd, and a stack
+  * student manually writes down 3 pushd
+  * popd once, and push another to demonstrate stack
+  * LIFO
+ * parameters
+  * ls -a
+   * point out special . and ..
+  * ls -l
+  * show that both can be combined, ls -al
+  * rm -r
+
 * help
   * man command
-  
+ 
 * write a script
   * make file
   * use sh and file name to run it
