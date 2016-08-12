@@ -39,6 +39,7 @@
  
 * write a script
   * make file
+  * use nano, not the gui editor. explain why.
   * use sh and file name to run it
 
 * homework
