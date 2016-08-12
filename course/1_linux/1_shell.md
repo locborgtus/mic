@@ -23,16 +23,16 @@
       * difference between > and >>
 
 * more advanced 
- * pushd and popd, and a stack
-  * student manually writes down 3 pushd
-  * popd once, and push another to demonstrate stack
-  * LIFO
+  * pushd and popd, and a stack
+   * student manually writes down 3 pushd
+   * popd once, and push another to demonstrate stack
+   * LIFO
  * parameters
-  * ls -a
-   * point out special . and ..
-  * ls -l
-  * show that both can be combined, ls -al
-  * rm -r
+   * ls -a
+    * point out special . and ..
+   * ls -l
+   * show that both can be combined, ls -al
+   * rm -r
 
 * help
   * man command
