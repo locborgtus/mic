@@ -18,13 +18,13 @@
   * (why yourself? recall what rm -rf does. if forgot, re-do the exercise)
 
 * super user, or administrator, is called `root`
-* to do something as root, run `sudo` and the command follows it
-* some system will ask for a password, some might not
-* try using `sudo` to create a file in `/` (remember to carefully remove it afterwards)
-* "great power comes great responsibility"
-* basically, the `sudo` command protects the system
-* there are other folders that are system protected, take a look at a few
-* explain the columns in `ls -al`
+ * to do something as root, run `sudo` and the command follows it
+ * some system will ask for a password, some might not
+ * try using `sudo` to create a file in `/` (remember to carefully remove it afterwards)
+ * "great power comes great responsibility"
+ * basically, the `sudo` command protects the system
+ * there are other folders that are system protected, take a look at a few
+ * explain the columns in `ls -al`. first column is user, then group.
 
 * introduce `apt`. it is a package management system
  * packages are software that you can install on to the system from the Internet
