@@ -30,17 +30,22 @@
  * let's install a very important text editor called `vim`
  * `apt-get install vim`
 
-* let's use it to edit `/boot/config.txt`
+* let's edit `/boot/config.txt`
+ * use vim to edit. vim is hard to use, but it's powerful
+ * practice on a regular file first
+ * let's move the cursor around, use arrow keys. you're in cursor mode.
+ * to save the file, make sure you're in cursor mode (hit escape) and type `:w`
+ * to quit vim, make sure you're in cursor mode (hit escape) and type `:q`
+ * to add characters to the file, type `i` and start typing. you're in edit mode.
+ * hit escape when done. now you're back to cursor mode.
+ * to delete characters, type `x`.
+
+* let's edit `/boot/config.txt` for real
  * for some reason, this monitor doesn't work correctly with the rpi (probably the dongle)
  * let's fix it
  * copy the `/boot/config.txt` to save it, in case we mess up
  * run `sudo vim /boot/config.txt` to edit it
- * vim is hard to use, but it's powerful
- * let's move the cursor around, use arrow keys. you're in cursor mode.
- * to add characters to the file, type `i` and start typing. you're in edit mode.
- * hit escape when done. now you're back to cursor mode.
- * to delete characters, type `x`.
- * to save the file, make sure you're in cursor mode (hit escape) and type `:w`
- * to quit vim, make sure you're in cursor mode (hit escape) and type `:q`
+ * find `hdmi_group`, change that to `2`.
+ * find `hdmi_mode`, change that to `82`.
 
 * explain the columns in `ls -al`
