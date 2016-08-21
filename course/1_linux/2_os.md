@@ -24,6 +24,7 @@
 * "great power comes great responsibility"
 * basically, the `sudo` command protects the system
 * there are other folders that are system protected, take a look at a few
+* explain the columns in `ls -al`
 
 * introduce `apt`. it is a package management system
  * packages are software that you can install on to the system from the Internet
@@ -50,5 +51,3 @@
  * run `sudo vim /boot/config.txt` to edit it
  * find `hdmi_group`, change that to `2`.
  * find `hdmi_mode`, change that to `82`.
-
-* explain the columns in `ls -al`
