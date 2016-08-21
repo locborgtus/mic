@@ -27,6 +27,7 @@
 * introduce `apt`. it is a package management system
  * packages are software that you can install on to the system from the Internet
  * run `apt-get update` to refresh the software list. the list changes over time
+ * this might not work if not connected to the WiFi. Fix that.
  * run `apt-cache search <keyword>` to search for software. try searching for anything `wifi` related.
  * let's install a very important text editor called `vim`
  * `apt-get install vim`
