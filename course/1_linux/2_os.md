@@ -3,6 +3,7 @@
 * What does an Operating System (OS) do?
   * OS manages hardware and applications
   * user <> application <> OS <> hardware
+  * remember the I/O sheet
   * For example, the OS manages hardware like:
     * micro SD card
     * the display (HDMI)
