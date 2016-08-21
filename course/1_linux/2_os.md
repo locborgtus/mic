@@ -15,7 +15,7 @@
   * try making a file in your home folder (/home/pi)
   * now try making a file in /, or /bin, or /usr/bin (you can't)
   * those are protected folders, meant to protect against bad people and yourself
-  * (why yourself? recall what rm -rf does. if forgot, re-do the exercise)
+  * (why yourself? recall what `rm -rf` does. if forgot, re-do the exercise)
 
 * super user, or administrator, is called `root`
  * to do something as root, run `sudo` and the command follows it
@@ -23,7 +23,7 @@
  * try using `sudo` to create a file in `/` (remember to carefully remove it afterwards)
  * "great power comes great responsibility"
  * basically, the `sudo` command protects the system
- * there are other folders that are system protected, take a look at a few
+ * there are other folders that are system protected, take a look at a few like `/boot`, `/usr`, `/bin`
  * explain the columns in `ls -al`. first column is user, then group.
 
 * introduce `apt`. it is a package management system
