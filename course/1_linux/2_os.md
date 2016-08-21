@@ -42,3 +42,5 @@
  * to delete characters, type `x`.
  * to save the file, make sure you're in cursor mode (hit escape) and type `:w`
  * to quit vim, make sure you're in cursor mode (hit escape) and type `:q`
+
+* explain the columns in `ls -al`
