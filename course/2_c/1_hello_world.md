@@ -75,3 +75,25 @@ gcc program.o -o program
 
 ## Let's change your program ##
 
+* Edit your soruce file. Go to the `printf` line
+* The double quotes define a string. A string is text.
+* Edit the string to the back of the string, but before the `\n`
+* So something like `hello world Simon\n`
+* Re-compile and run. Your name should show up.
+
+## Sometimes, typos happen ##
+
+* Edit your source file. Go to the open braces line.
+* Delete the open braces with the `x` key. Or hit `dd`.
+* Re-compile. What happens?
+* Error! The compiler checks your grammar when you compile.
+ 
+## Let's play with printf ##
+
+* add a `\t` to the front of the string. Re-compile and run.
+* The `\t` is a special character. It means a tab
+* Get rid of the `\n` and recompile. See what happens.
+* Bring the `\n` back.
+* Add a `%d` after the `\t`. After the string, add a comma and a number, like `123`
+* Re-compile and run
+* Can also do arithmetic. Replace `123` with `1 + 2 + 3`.
