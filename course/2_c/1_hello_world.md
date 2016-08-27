@@ -56,21 +56,21 @@ gcc program.o -o program
  * This is a library for printing things on the screen, called header files
  * There's a lot of other libraries, or someday you'll write your own
 
-* `int main()`
+`int main()`
 * This is telling the computer where the first instructions are about to start
 * This is called the "main function". Every C program has this.
 
-* `{`
+`{`
 * Every function needs to have starting braces
 
-* `printf("hello world\n");`
+`printf("hello world\n");`
 * This is the line where you print the text `hello world`
 
-* `return 0`
+`return 0`
 * This is telling the computer this function is done
 * For main(), 0 means everything is good. Not a 0 means an error happened.
 
-* `}`
+`}`
 * Every function needs to have matching closing braces
 
 ## Let's change your program ##
