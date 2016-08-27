@@ -52,9 +52,9 @@ gcc program.o -o program
 
 ## Let's see what you just typed ##
 
-* `#include <stdio.h>`
-* This is a library for printing things on the screen, called header files
-* There's a lot of other libraries, or someday you'll write your own
+`#include <stdio.h>`
+ * This is a library for printing things on the screen, called header files
+ * There's a lot of other libraries, or someday you'll write your own
 
 * `int main()`
 * This is telling the computer where the first instructions are about to start
