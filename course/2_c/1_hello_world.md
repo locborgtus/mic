@@ -87,6 +87,7 @@ gcc program.o -o program
 * Delete the open braces with the `x` key. Or hit `dd`.
 * Re-compile. What happens?
 * Error! The compiler checks your grammar when you compile.
+* Restore the `{` with the `u` key before continuing
  
 ## Let's play with printf ##
 
@@ -97,3 +98,8 @@ gcc program.o -o program
 * Add a `%d` after the `\t`. After the string, add a comma and a number, like `123`
 * Re-compile and run
 * Can also do arithmetic. Replace `123` with `1 + 2 + 3`.
+* The `%d` means `printf` expects a number in the back.
+* Try `%s`. That means string. Try using that to print your name in the back.
+* A few other things to try:
+  * Add another `%d` somewhere, but don't give it a number in the back. Compile.
+  * Add another printf. Use a combination of `\n` and no `\n` to see what happens.
