@@ -1,0 +1,116 @@
+* variables, data types *
+
+* variables are things that hold data
+* data types in C:
+  * booleans
+  * strings
+  * characters
+  * int
+  * double and float (decimal numbers)
+* in C, you declare a variable like this:
+  * <variable type> <variable name> = <value>;
+  * let's try making an integer variable. they're the easiest:
+
+```
+int n = 5;
+printf("value: %d\n", n);
+```
+
+  * the value on the right is optional, called initialization
+  * using <value> to initialize the variable is optional, try printing out value without
+  
+```
+int n;
+printf("value: %d\n", n);
+```
+
+* variable arithmetics
+  * try:
+
+```
+int n = 2;
+printf("value: %d\n", n + 5);
+printf("value: %d\n", n);
+```
+
+  * note that the variable didn't change
+  * the variable only changes when you use the `=` sign on it
+  * try
+  
+```
+int n = 2;
+printf("value: %d\n", n);
+n = 5 + 3;
+printf("value: %d\n", n);
+```
+
+* floating point (decimal) data
+  * integers are whole numbers. floating point are decimal numbers with partials
+  * anything with a decimal point are considered floating point numbers
+  * examples: `1.2345, 0.5, -876.54`
+  * use `%f` in printf to print. try:
+  
+```
+  float f = 1.234;
+  printf("float: %f\n", f);
+```
+
+* why not use everything as floats?
+  * floats are slower
+  * easier to read whole numbers
+  
+* choosing variable names
+  * should be easy to read
+  * if you use really short names, you won't know what the program does when you read it back
+  * review dollar_calculator for variable names
+  * variable names are case-sensitive. So `pennies` and `Pennies` are different.
+  * limits. can't use reserved names like `printf` or `float`. can't start with a number `5_cents`
+  
+* standard to declare all the variables in the function on the top. easier to read and find variables.
+
+* exercise:
+  * write a program that calculates coin types to dollar values, called coins
+  * initialize number of pennies, dimes, and quarters
+  
+* comments
+  * explain what you are doing in the program
+  * the compiler doesn't really care about comments
+  * 2 ways to make comments
+  * `//`, only works on 1 line
+
+```
+// setting the x variable to 2
+int x = 2;
+```
+
+  * or `/* */` pair. these can go multiplie lines:
+
+```
+/*
+ hi
+ this is a comment
+ */
+```
+
+  * comments are useful because:
+    * makes your code easier to read
+    * other people can understand your code
+    * useful for debugging when you explain your logic
+
+* read in variables from user
+  * in the dollar calculator, we initialized the variable from within code
+  * this is bad, because it's not flexible
+  * every time we want to change the amount, we have to recompile
+  * solution: read from user. use the `scanf` function
+  * scanf is kinda like printf, except backwards.
+
+```
+printf("enter an integer:\n");
+scanf("%d", &n);
+```
+
+  * note in scanf there is no `\n`, and there is an `&` before the variable
+
+* update coins program to read number of coins from user
+  * add comments to show what the program is doing
+  * for example, input, calculation, and output (remember the black box?(
