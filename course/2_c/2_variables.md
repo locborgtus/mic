@@ -1,4 +1,4 @@
-* variables, data types *
+# variables, data types, comments, input #
 
 * variables are things that hold data
 * data types in C:
