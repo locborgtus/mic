@@ -113,4 +113,9 @@ scanf("%d", &n);
 
 * update coins program to read number of coins from user
   * add comments to show what the program is doing
-  * for example, input, calculation, and output (remember the black box?(
+  * for example, input, calculation, and output (remember the black box?)
+
+* homework or final exercise
+ * write a program called fluids to calculate imperial fluid amount to gallons
+ * 1 gallon = 4 quarts = 8 pints = 16 cups = 128 fluid ounces
+ * ask the user to input quarts, pints, cups, and ounces
