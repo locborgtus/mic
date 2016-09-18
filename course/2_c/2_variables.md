@@ -73,7 +73,7 @@ printf("value: %d\n", n);
  * make a new file called `var.c`
  * for each of the 4 basic variable types (int, float, char, bool), make a variable `myInt` and so on and print
  * leave bool last. bool is special, `#include <stdbool.h>`
- * for printf, %d for int and bool, %c for char, and %f for float
+ * for printf, `%d` for int and bool, `%c` for char, and `%f` for float
 
 * **exercise**:
   * write a program that calculates coin types to dollar values, called coins
