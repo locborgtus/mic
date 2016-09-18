@@ -9,6 +9,7 @@
   * float (decimal numbers)
 * in C, you declare a variable like this:
   * `<variable type> <variable name> = <value>;`
+* let's a basic exercise to try out variables
   * let's set up a folder, call it `variables`
   * make a file call `basic.c`
   * let's try making an integer variable. they're the easiest:
