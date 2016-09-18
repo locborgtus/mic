@@ -62,7 +62,6 @@ printf("value: %d\n", n);
 * choosing variable names
   * should be easy to read
   * if you use really short names, you won't know what the program does when you read it back
-  * review dollar_calculator for variable names
   * variable names are case-sensitive. So `pennies` and `Pennies` are different.
   * limits. can't use reserved names like `printf` or `float`. can't start with a number `5_cents`
 
