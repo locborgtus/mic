@@ -24,13 +24,6 @@ int n;
 printf("value: %d\n", n);
 ```
 
-* exercise: try different variable types
-
- * make a new folder called `variables`
- * make a new file called `var.c`
- * for each of the 4 basic variable types (int, float, char, bool), make a variable `myInt` and print
- * bool is special, `#include <stdbool.h>`
-
 * variable arithmetics
   * try:
 
@@ -65,17 +58,24 @@ printf("value: %d\n", n);
 * why not use everything as floats?
   * floats are slower
   * easier to read whole numbers
-  
+
 * choosing variable names
   * should be easy to read
   * if you use really short names, you won't know what the program does when you read it back
   * review dollar_calculator for variable names
   * variable names are case-sensitive. So `pennies` and `Pennies` are different.
   * limits. can't use reserved names like `printf` or `float`. can't start with a number `5_cents`
-  
+
 * standard to declare all the variables in the function on the top. easier to read and find variables.
 
-* exercise:
+
+* **exercise**: try different variable types
+ * make a new folder called `variables`
+ * make a new file called `var.c`
+ * for each of the 4 basic variable types (int, float, char, bool), make a variable `myInt` and print
+ * bool is special, `#include <stdbool.h>`
+
+* **exercise**:
   * write a program that calculates coin types to dollar values, called coins
   * initialize number of pennies, dimes, and quarters
   
