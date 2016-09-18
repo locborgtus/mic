@@ -59,7 +59,7 @@ printf("value: %d\n", n);
 ```
 
 * why not use everything as floats?
-  * floats are slower
+  * floats are slower and bigger
   * easier to read whole numbers
 
 * choosing variable names
