@@ -9,6 +9,8 @@
   * float (decimal numbers)
 * in C, you declare a variable like this:
   * `<variable type> <variable name> = <value>;`
+  * let's set up a folder, call it `variables`
+  * make a file call `basic.c`
   * let's try making an integer variable. they're the easiest:
 
 ```
@@ -67,9 +69,7 @@ printf("value: %d\n", n);
 
 * standard to declare all the variables in the function on the top. easier to read and find variables.
 
-
 * **exercise**: try different variable types
- * make a new folder called `variables`
  * make a new file called `var.c`
  * for each of the 4 basic variable types (int, float, char, bool), make a variable `myInt` and so on and print
  * leave bool last. bool is special, `#include <stdbool.h>`
