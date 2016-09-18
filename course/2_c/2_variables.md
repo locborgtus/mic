@@ -6,7 +6,7 @@
   * strings
   * characters
   * int
-  * double and float (decimal numbers)
+  * float (decimal numbers)
 * in C, you declare a variable like this:
   * <variable type> <variable name> = <value>;
   * let's try making an integer variable. they're the easiest:
@@ -23,6 +23,13 @@ printf("value: %d\n", n);
 int n;
 printf("value: %d\n", n);
 ```
+
+* exercise: try different variable types
+
+ * make a new folder called `variables`
+ * make a new file called `var.c`
+ * for each of the 4 basic variable types (int, float, char, bool), make a variable `myInt` and print
+ * bool is special, `#include <stdbool.h>`
 
 * variable arithmetics
   * try:
