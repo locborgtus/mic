@@ -8,7 +8,7 @@
   * int
   * float (decimal numbers)
 * in C, you declare a variable like this:
-  * <variable type> <variable name> = <value>;
+  * `<variable type> <variable name> = <value>;`
   * let's try making an integer variable. they're the easiest:
 
 ```
