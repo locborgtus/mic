@@ -120,6 +120,8 @@ scanf("%d", &n);
 
   * note in scanf there is no `\n`, and there is an `&` before the variable
   * ***exercise*** Write a sample program to check what happens if the user inputs wrong numbers
+    * do `scanf("%d %f", &myInt, &myFloat);`, but input the wrong types
+    * do `scanf("%d abc %f", &myInt, &myFloat);`, and see what happens
 
 * update coins program to read number of coins from user
   * add comments to show what the program is doing
