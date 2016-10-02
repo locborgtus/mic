@@ -118,3 +118,13 @@ if ((myInt < 0) || (myInt > 10)) {
 1. Change your coin counter program so that the user must input valid numbers.
 2. Quit the program if numbers are not valid.
 3. Hint: initialize the coins to -1.
+
+**Really hard homework:**
+
+Write a program that reads in dollar amounts, and figures out the exact change.
+hint: Add `#include <math.h>` and use the `floor()` function.
+Example:
+
+```
+dollars = floor(amount / 1.00);
+```
