@@ -120,6 +120,12 @@ if ((myInt < 0) || (myInt > 10)) {
 1. Change your coin counter program so that the user must input valid numbers.
 2. Quit the program if numbers are not valid. Display the proper error messages, like "Invaid quarter amount".
 3. Hint: initialize the coins to -1.
+4. No one want to carry too many coins. If the amount can be represented with paper bills, recommend largest bill to use. Example:
+
+  * $156.23 => $100 dollar bill
+  * $52.34  => $50 dollar bill
+  * $652.33 => $100 dollar bill
+  * $23.78 => $20 dollar bill
 
 **Really hard homework:**
 
