@@ -42,7 +42,8 @@ if (myInt < 100) {
 **Exercise:** Write a simple program that:
 
 1. Read an integer from the user. Use scanf().
-2. If the number is less than 10, print "This is a small number".
+2. If the number is less than 10, print "number is less than 10".
+3. Test your program with a variety of numbers.
 
 Make a new folder called `if`, and create the boilerplate.
 
@@ -62,9 +63,10 @@ The `else` statement lets you run code if the TEST is `false`.
 
 **Exercise:** Update your program:
 
-1. Print `number is bigger than 10` if the input is greater than 10.
+1. In the else {} block, print `number is bigger than 10`.
 2. Add a print at the end of the program that prints the number you inputted.
-3. What's the difference between the last print and the print in the else?
+3. Test your program with a variety of numbers.
+4. What's the difference between the last print and the print in the else?
 
 ### if-else-if-else ###
 
