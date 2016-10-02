@@ -108,5 +108,5 @@ if ((myInt < 0) || (myInt > 10)) {
 1. On a piece of paper, draw a 2x2 table
 2. Label this as `OR`.
 3. Label the row and column with true and false.
-4. Fill out each table box when you perform the OR test. Use real life examples to help you.
+4. Fill out each table box when you perform the OR test. Think of real life examples to help you. You can also use the computer to figure it out. `if (true || false) { ... }`.
 5. Repeat with `AND`.
