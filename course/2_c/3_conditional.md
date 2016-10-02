@@ -122,7 +122,9 @@ if ((myInt < 0) || (myInt > 10)) {
 **Really hard homework:**
 
 Write a program that reads in dollar amounts, and figures out the exact change.
-hint: Add `#include <math.h>` and use the `floor()` function.
+
+Hint: Add `#include <math.h>` and use the `floor()` function.
+
 Example:
 
 ```
