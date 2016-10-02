@@ -11,11 +11,11 @@ if (TEST) {
 }
 ```
 
-The CODE in `if` runs if TEST is TRUE (1).
+The CODE in `if` runs if TEST is `true` (1).
 
 CODE is enclosed in braces.
 
-A TEST is a logic expression that evaluates to TRUE or FALSE.
+A TEST is a logic expression that evaluates to `true` or `false`.
 
 Example:
 
@@ -25,6 +25,9 @@ Example:
 -1 < 10 (TRUE)
 123 == 123 (TRUE)
 5 == 10 (FALSE)
+25 >= 10 (TRUE)
+25 > 25 (FALSE)
+25 >= 25 (TRUE)
 myInt > 50 (depends on myInt)
 ```
 
@@ -55,7 +58,7 @@ if (TEST) {
 }
 ```
 
-The `else` statement lets you run code if the TEST is FALSE.
+The `else` statement lets you run code if the TEST is `false`.
 
 **Exercise:** Update your program:
 
@@ -77,3 +80,33 @@ This series of statements lets you test multiple things, in sequence.
 **Exercise:** Update your program:
 
 1. Let the user know if a number is less than 0, greater than 100, or in between 0-100
+2. Use logic of deduction. Draw out on paper what the choices for a number can be if needed.
+
+### compound tests ###
+
+```
+if (TEST1 logic operator TEST2) {
+}
+```
+
+A logic operator can be `&&` (and), `||` (or).
+
+Examples:
+
+```
+if ((myInt > 0) && (myInt < 10)) {
+  printf("my number is between 0 and 10\n");
+}
+
+if ((myInt < 0) || (myInt > 10)) {
+  printf("my number is less than 0 or is greater than 10\n");
+}
+```
+
+**Exercise:**
+
+1. On a piece of paper, draw a 2x2 table
+2. Label this as `OR`.
+3. Label the row and column with true and false.
+4. Fill out each table box when you perform the OR test. Use real life examples to help you.
+5. Repeat with `AND`.
