@@ -21,13 +21,13 @@ Example:
 
 ```
 100 > 5 (TRUE)
-50 < 71 (FALSE)
+50 > 71 (FALSE)
 -1 < 10 (TRUE)
 123 == 123 (TRUE)
 5 == 10 (FALSE)
 25 >= 10 (TRUE)
-25 > 25 (FALSE)
-25 >= 25 (TRUE)
+25 < 25 (FALSE)
+25 <= 25 (TRUE)
 myInt > 50 (depends on myInt)
 ```
 
