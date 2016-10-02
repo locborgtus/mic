@@ -111,7 +111,7 @@ if ((myInt < 0) || (myInt > 10)) {
 2. Label this as `OR`.
 3. Label the row and column with true and false.
 4. Fill out each table box when you perform the OR test. Think of real life examples to help you.
-  * Example: Best Buy has a discount. There are 2 terms. The sale is on Saturday OR the sale is after 2:00 PM. Use those 2 terms as your row and column. Think of different days and times you go to the store, will you get the discount?
+  * Example: Best Buy has a discount. There are 2 discount requirements. The sale is happens on Saturday OR the sale happens after 2:00 PM any day. Use those 2 requirements as your row and column. Think of different days and times you go to the store, will you get the discount?
   * You can also use the computer to figure it out. `if (true || false) { ... }`.
 5. Repeat with `AND`.
 
