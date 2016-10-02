@@ -116,7 +116,7 @@ if ((myInt < 0) || (myInt > 10)) {
 **Homework:**
 
 1. Change your coin counter program so that the user must input valid numbers.
-2. Quit the program if numbers are not valid.
+2. Quit the program if numbers are not valid. Display the proper error messages, like "Invaid quarter amount".
 3. Hint: initialize the coins to -1.
 
 **Really hard homework:**
