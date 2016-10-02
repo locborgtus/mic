@@ -129,4 +129,7 @@ Example:
 
 ```
 dollars = floor(amount / 1.00);
+quarters = floor(amount / 0.25);
 ```
+
+Hint: remember to subtract the coins from the amount before continuing to the next coin type.
