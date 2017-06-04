@@ -128,11 +128,12 @@ scanf("%d", &n);
   * for example, input, calculation, and output (remember the black box?)
 
 * homework or final exercise
- * write a program called fluids to calculate imperial fluid amount to gallons
- * 1 gallon = 4 quarts = 8 pints = 16 cups = 128 fluid ounces
- * ask the user to input quarts, pints, cups, and ounces
- * introduce `if` statements
+  * write a program called fluids to calculate imperial fluid amount to gallons
+  * 1 gallon = 4 quarts = 8 pints = 16 cups = 128 fluid ounces
+  * ask the user to input quarts, pints, cups, and ounces
+  * introduce `if` statements
  
 * Other similar concepts
- * Currency (quarters, nickels, dimes)
- * Time (Week, days, hours)
+  * Currency (quarters, nickels, dimes)
+  * Time (Week, days, hours)
+  * Roman numerals (https://en.wikipedia.org/wiki/Roman_numerals)
