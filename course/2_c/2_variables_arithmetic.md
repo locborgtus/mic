@@ -70,6 +70,8 @@ printf("value: %d\n", n);
 
 * standard to declare all the variables in the function on the top. easier to read and find variables.
 
+* arithmetic
+
 * **exercise**: try different variable types
  * make a new file called `var.c`
  * for each of the 4 basic variable types (int, float, char, bool), make a variable `myInt` and so on and print
