@@ -71,13 +71,17 @@ printf("value: %d\n", n);
 * standard to declare all the variables in the function on the top. easier to read and find variables.
 
 * arithmetic
+  * \+ \- \* \/ %
+  * add, subtract, multiply are pretty standard, division is different with int and float. try.
+  * arithmetic precedence. \*, \/, takes precedence over \+, \-. Otherwise, from left to right.
+  * Use parenthesis to ensure order
 
 * **exercise**: try different variable types
- * make a new file called `var.c`
- * for each of the 4 basic variable types (int, float, char, bool), make a variable `myInt` and so on and print
- * leave bool last. bool is special, `#include <stdbool.h>`
- * for printf, `%d` for int and bool, `%c` for char, and `%f` for float
- * you can try to assign non-matching data to variables. but it's weird, so don't do that. try assigning `123.45` to an int.
+  * make a new file called `var.c`
+  * for each of the 4 basic variable types (int, float, char, bool), make a variable `myInt` and so on and print
+  * leave bool last. bool is special, `#include <stdbool.h>`
+  * for printf, `%d` for int and bool, `%c` for char, and `%f` for float
+  * you can try to assign non-matching data to variables. but it's weird, so don't do that. try assigning `123.45` to an int.
 
 * **exercise**:
   * write a program that calculates coin types to dollar values, called coins
