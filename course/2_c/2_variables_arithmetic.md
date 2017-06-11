@@ -140,6 +140,5 @@ scanf("%d", &n);
   * introduce `if` statements
  
 * Other similar concepts
-  * Currency (quarters, nickels, dimes)
-  * Time (Week, days, hours)
-  * Roman numerals (https://en.wikipedia.org/wiki/Roman_numerals)
+  * Currency (quarters, nickels, dimes) to dollars
+  * Time (Week, days, hours) to seconds
