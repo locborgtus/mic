@@ -140,7 +140,7 @@ Paper bill calculator.
 4. No one want to carry too many coins. Recommend the number of bills to use. Example:
 
   * $156.23: 1x $100 bill, 1x $50 bill, 6x $1 bill
-  * $52.34: 1x $50 bill, 12x $2 bill 
+  * $52.34: 1x $50 bill, 2x $2 bill 
   * $652.33: 6x $100 bill, 1x $50 bill, 2x $1 bill
   
  5. Hint: think about how many different bill types there are. Start with the largest bill type, and subtract the remainder.
