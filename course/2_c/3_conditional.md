@@ -132,27 +132,22 @@ if ((myInt < 0) || (myInt > 10)) {
 
 **Homework:**
 
-1. Change your coin counter program so that the user must input valid numbers.
-2. Quit the program if numbers are not valid. Display the proper error messages, like "Invaid quarter amount".
-3. Hint: initialize the coins to -1.
-4. No one want to carry too many coins. If the amount can be represented with paper bills, recommend largest bill to use. Example:
+Paper bill calculator.
 
-  * $156.23 => $100 dollar bill
-  * $52.34  => $50 dollar bill
-  * $652.33 => $100 dollar bill
-  * $23.78 => $20 dollar bill
+1. Have the user input a dollar amount, anything from $0.45 to $1234.56
+2. Quit the program if numbers are not valid. Give some example of invalid inputs?
+3. Hint: scanf("%d") will return 0 if fail, 1 if succeeds.
+4. No one want to carry too many coins. Recommend the number of bills to use. Example:
 
-**Really hard homework:**
+  * $156.23: 1x $100 bill, 1x $50 bill, 6x $1 bill
+  * $52.34: 1x $50 bill, 12x $2 bill 
+  * $652.33: 6x $100 bill, 1x $50 bill, 2x $1 bill
+  
+ 5. Hint: think about how many different bill types there are. Start with the largest bill type, and subtract the remainder.
+ 6. Print out the most type of bills used. Example: $567.32 would have 5x $100, 1x $50, 1x $10, and 7x $1. The answer is 7x $1. You'll have to keep track of the largest amount of bills used over time.
 
-Write a program that reads in dollar amounts, and figures out the exact change.
+* Extra credit:
 
-Hint: Add `#include <math.h>` and use the `floor()` function.
-
-Example:
-
-```
-dollars = floor(amount / 1.00);
-quarters = floor(amount / 0.25);
-```
+Figure out exact change in addition to bills.
 
 Hint: remember to subtract the coins from the amount before continuing to the next coin type.
