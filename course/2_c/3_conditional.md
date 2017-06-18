@@ -19,6 +19,16 @@ A TEST is a logic expression that evaluates to `true` or `false`.
 
 Example:
 
+| sign | Logic Operators |
+|------|-----------------|
+| <    | less than       |
+| >    | greater than       |
+| <=   | less than or equal |
+| >=   | greater than or equal |
+| ==   | equal |
+| !=   | not equal |
+| !    | not / opposite |
+
 ```
 100 > 5 (TRUE)
 50 > 71 (FALSE)
