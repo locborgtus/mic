@@ -150,4 +150,5 @@ Paper bill calculator.
 
 Figure out exact change in addition to bills.
 
-Hint: remember to subtract the coins from the amount before continuing to the next coin type.
+* Hint: remember to subtract the coins from the amount before continuing to the next coin type.
+* Calculate the largest amount of coins the person has to carry, in addition to bills
