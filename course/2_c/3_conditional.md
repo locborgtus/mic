@@ -145,6 +145,15 @@ Paper bill calculator.
   
  5. Hint: think about how many different bill types there are. Start with the largest bill type, and subtract the remainder.
  6. Print out the most type of bills used. Example: $567.32 would have 5x $100, 1x $50, 1x $10, and 7x $1. The answer is 7x $1. You'll have to keep track of the largest amount of bills used over time.
+ 7. Have to use floor().
+ 
+ ```
+ #include <math.h>
+ floor(1.23); // becomes 1
+ // remember to use -lm when compiling
+ ```
+ 
+ 
 
 * Extra credit:
 
