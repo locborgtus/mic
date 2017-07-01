@@ -25,8 +25,6 @@ while (<cond>);
 
 **Excercise:** Guess what happens when there's a `;` at the end
 
-**Excercise:** Start with a penny. Ask your parent to double your money every day for a month. Write a program to see what happens after 30 days. Print out the amount you have every day.
-
 **Excercise:** A common use for the while loop is to ask the user for input until the input is 'Y' or 'y'.
 
 There's also another loop type, called `do-while`:
@@ -39,3 +37,7 @@ do {
 The main difference is the do-while loop will run at least once.
 
 **Excercise:** Change the previous input program to use the do-while loop. Then make it so that you check for 'yes' and 'Yes' as well. Which version do you prefer?
+
+---
+
+**Homework:** Start with a penny. Ask your parent to double your money every day for a month. Write a program to see what happens after 30 days. Print out the amount you have every day.
