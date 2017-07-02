@@ -49,4 +49,4 @@ int result = strcmp("hi", "hello");
 
 **Homework:** 
 
- Print a 2D grid. 
+TBD
