@@ -49,4 +49,4 @@ int result = strcmp("hi", "hello");
 
 **Homework:** 
 
-Ask the user to input 2 numbers, X and Y. Use these two numbers to create a 2D grid of the letter 'O'. Make sure to keep asking the user for numbers until they are valid. Hint: scanf will return a 1 if it succeeds, not 1 if it fails.
+Ask the user to input 2 numbers, X and Y (row and column). Use these two numbers to create a 2D grid of the letter 'O'. Make sure to keep asking the user for numbers until they are valid. Hint: scanf will return a 1 if it succeeds, not 1 if it fails.
