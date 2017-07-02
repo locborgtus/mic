@@ -81,6 +81,8 @@ for (int i = 0; i < 100; i++) {
 
 * You can change the control variable inside the for loop.
 
+## More exercises ##
+
 * **Excercise:** Change the control variable inside the loop. Try to make the determination if this is a good thing to do.
 
 * You can also put one loop inside another. For example:
