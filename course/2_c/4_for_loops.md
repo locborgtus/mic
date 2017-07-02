@@ -79,6 +79,21 @@ for (int i = 0; i < 100; i++) {
 
 * **Exercise**: Continue to read a number from the user until the number is larger than 100.
 
+* You can change the control variable inside the for loop.
+
+* **Excercise:** Change the control variable inside the loop. Try to make the determination if this is a good thing to do.
+
+* You can also put one loop inside another. For example:
+
+```
+for (...) {
+  for (...) {
+  }
+}
+```
+
+* **Excercise:** Print out a 2-dimensional (2D) grid of the number 0. Separate each 0 with a space per column, and new lines (\n) for each row.
+
 ## Homework ##
 
 * Convert whole numbers to roman numerals. Roman numerals:
