@@ -40,6 +40,13 @@ The main difference is the do-while loop will run at least once.
 
 ```
 int result = strcmp("hi", "hello");
+```
+
+**Excercise:** Start with a penny. Ask your parent to double your money every day for a month. Write a program to see what happens after 30 days. Print out the amount you have every day. 
+  * Then, find out the rate they have to add your money to get to 1 million dollars at 30 days (hint: determine the percentage they are increasing now, and think of a way to change the rate and keep testing until you get to 1 million).
+  * Then, print out at what day would you have 100 million dollars (100 000 000) or more, at the double rate.
 ---
 
-**Homework:** Start with a penny. Ask your parent to double your money every day for a month. Write a program to see what happens after 30 days. Print out the amount you have every day.
+**Homework:** 
+
+ Print a 2D grid. 
