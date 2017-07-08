@@ -119,9 +119,7 @@ Write a set of functions that computes the characteristics of a rectangle.
 
 First take in 2 numbers, a and b.
 
-Then write functions that calculate characteristics like the perimeter, area
-
-* example: write a set of geometry support functions, like square area, perimeter, and the longest distance between 2 points. Hint: use the pythagorean theorem. The function is called sqrt(), if you include math.h and compile with -lm.
+Then write functions that calculate characteristics like the perimeter, area, and the longest distance between 2 points. Hint: use the pythagorean theorem. The function is called sqrt(), if you include math.h and compile with -lm.
 
 ## Homework ##
 
