@@ -121,6 +121,24 @@ First take in 2 numbers, a and b.
 
 Then write functions that calculate characteristics like the perimeter, area, and the longest distance between 2 points. Hint: use the pythagorean theorem. The function is called sqrt(), if you include math.h and compile with -lm.
 
+Introduct random numbers, if time allows. 
+
+```
+#include <stdio.h>
+#include <stdlib.>
+
+int main()
+{
+  printf("rand max: %d\n", RAND_MAX);
+  srand(4567);
+  for (int i = 0; i < 10; i++) {
+    printf("%d\n", rand());
+  }
+}
+```
+
+Write a function that prints a specified number of random numbers.
+
 ## Homework ##
 
 Collatz conjecture
