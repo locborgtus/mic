@@ -37,8 +37,13 @@ int main(int argc, char *argv[])
   // done drawing
   refresh();
 
+  // turn off the color mode
   attroff(COLOR_PAIR(1));
+  
+  // ask the user for input so that the drawing stays on screen
   getch();
+  
+  // stop ncurses
   endwin();
 
   return 0;
