@@ -51,3 +51,25 @@ int main(int argc, char *argv[])
 ```
 
 Explain what each part of the code does.
+
+## Exercise ##
+
+Draw a square right in the middle of the screen. Tip: use loops. First draw it at 0, 0. Then move the draw to the middle. Take into consideration the size of the square.
+
+Then print the square properties towards the bottom of the screen. Use the function **mvprintw**.
+
+Try changing the colors. Create a different color pair.
+
+## Exercise ##
+
+Draw circles. Have to explain cos and sin, radians and degrees.
+
+Sample code:
+
+```c
+for (deg = 0; deg < 360.0f; deg += 1.0f) {
+		x = width+(int)(width * cos(DEGTORAD(deg)));
+		y = height+(int)(height * sin(DEGTORAD(deg)));
+    // 
+}
+```
