@@ -2,6 +2,12 @@
 
 Use a library called **ncurses** to draw for us.
 
+Install it by doing:
+
+```sh
+sudo apt install libncurses5-dev
+```
+
 Use the following code to draw a line:
 
 ```c
