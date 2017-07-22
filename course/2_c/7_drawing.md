@@ -4,7 +4,7 @@ Use a library called **ncurses** to draw for us.
 
 Use the following code to draw a line:
 
-```
+```c
 #include <ncurses.h>
 
 int main(int argc, char *argv[])
@@ -44,3 +44,5 @@ int main(int argc, char *argv[])
   return 0;
 }
 ```
+
+Explain what each part of the code does.
