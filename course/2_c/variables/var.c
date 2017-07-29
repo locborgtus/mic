@@ -10,6 +10,6 @@ int main()
 
   printf("%d %d %f %c\n", myBool, myInt, myFloat, myChar);
 
-  scanf("%d", &myInt);
-  printf("%d\n", myInt);
+  scanf("%d %f", &myInt, &myFloat);
+  printf("%d %f\n", myInt, myFloat);
 }
