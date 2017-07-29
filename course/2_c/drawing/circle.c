@@ -10,7 +10,7 @@
 #include <ncurses.h>
 #include <math.h>
 
-#define DEGTORAD(deg) (deg * (180.0f/M_PI))
+#define DEGTORAD(deg) (deg * (M_PI / 180.0f))
 #define DOT 46
 
 int main(int argc, char *argv[]) {
@@ -37,7 +37,7 @@ int main(int argc, char *argv[]) {
     getmaxyx(stdscr, maxY, maxX);
 
     /* Draw circle */
-    for (deg = 0; deg < 5.0f; deg += 1.0f) {
+    for (deg = 0; deg < 360.0f; deg += 1.0f) {
         x = maxX / 2 + (int)(width * cos(DEGTORAD(deg)));
         y = maxY / 2 + (int)(height * sin(DEGTORAD(deg)));
 
