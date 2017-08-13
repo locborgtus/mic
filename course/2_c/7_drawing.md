@@ -80,3 +80,17 @@ for (deg = 0; deg < 360.0f; deg += 1.0f) {
   // draw
 }
 ```
+
+## Animation ##
+
+Use `usleep` to sleep microseconds.
+
+```c
+#include <unistd.h>
+
+usleep(microseconds);
+```
+
+Use -std=gnu99 to get rid of the warning.
+
+
