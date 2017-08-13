@@ -74,8 +74,9 @@ Sample code:
 
 ```c
 for (deg = 0; deg < 360.0f; deg += 1.0f) {
-		x = width+(int)(width * cos(DEGTORAD(deg)));
-		y = height+(int)(height * sin(DEGTORAD(deg)));
-    // 
+  x = width + (int)(radius * cos(DEGTORAD(deg)));
+  y = height + (int)(radius * sin(DEGTORAD(deg)));
+
+  // draw
 }
 ```
