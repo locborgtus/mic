@@ -93,4 +93,6 @@ usleep(microseconds);
 
 Use -std=gnu99 to get rid of the warning.
 
+## Exercise ##
 
+Move a character across the screen. Visit every single square.
