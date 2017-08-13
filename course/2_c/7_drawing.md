@@ -95,4 +95,13 @@ Use `-std=gnu99` to get rid of the warning.
 
 ## Exercise ##
 
-Move a character across the screen. Visit every single square.
+Move a character across the screen. Visit every single square. Use the function `clear()` to remove the last draw.
+
+## Homework ##
+
+Animate an explosion. Create it by using circles. Hints:
+
+* Think about what inputs there are to the explosion. For example, the explosion has to start somewhere, and should have a size.
+* Use circles. Start with a small circle, then to a big circle
+* Use the function `clear()` strategically to make the explosion look better
+* Try making many explosions.
