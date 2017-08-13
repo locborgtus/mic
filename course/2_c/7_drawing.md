@@ -91,7 +91,7 @@ Use `usleep` to sleep microseconds.
 usleep(microseconds);
 ```
 
-Use -std=gnu99 to get rid of the warning.
+Use `-std=gnu99` to get rid of the warning.
 
 ## Exercise ##
 
