@@ -123,6 +123,12 @@ int main()
 }
 ```
 
+Random numbers are useful to make game artificial intelligence (AI). The game can take different actions every time you play it.
+
+Like Minecraft stage creation.
+
+![Minecraft Seed](http://pad2.whstatic.com/images/thumb/6/6e/Use-Seeds-in-Minecraft-Step-3.jpg/aid5974520-v4-728px-Use-Seeds-in-Minecraft-Step-3.jpg)
+
 ## Exercise ##
 
 Change the seed to see what happens.
