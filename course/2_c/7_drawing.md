@@ -95,11 +95,19 @@ Use `-std=gnu99` to get rid of the warning.
 
 ## Exercise ##
 
+Print something out at a particular rate. Get a feel for how long a second is, and what parts of a second is.
+
+## Exercise ##
+
 Move a character across the screen. Visit every single square. Use the function `clear()` to remove the last draw.
 
 ## Random numbers ##
 
 Random numbers are a series of numbers that has no pattern.
+
+Some examples of non-random and random numbers.
+
+There's also something called pseudo-random numbers. These are random numbers that are "kinda random". These are pre-generated numbers based on a seed.
 
 ```c
 #include <stdio.h>
@@ -114,6 +122,9 @@ int main()
   }
 }
 ```
+
+## Exercise ##
+
 
 ## Homework ##
 
