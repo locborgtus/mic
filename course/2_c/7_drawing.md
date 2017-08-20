@@ -97,6 +97,24 @@ Use `-std=gnu99` to get rid of the warning.
 
 Move a character across the screen. Visit every single square. Use the function `clear()` to remove the last draw.
 
+## Random numbers ##
+
+Random numbers are a series of numbers that has no pattern.
+
+```c
+#include <stdio.h>
+#include <stdlib.>
+
+int main()
+{
+  printf("rand max: %d\n", RAND_MAX);
+  srand(4567);
+  for (int i = 0; i < 10; i++) {
+    printf("%d\n", rand());
+  }
+}
+```
+
 ## Homework ##
 
 Animate an explosion. Create it by using circles. Hints:
