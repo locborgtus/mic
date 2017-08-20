@@ -1,5 +1,7 @@
 # Arrays #
 
+Arrays are a list of variables. Think of them like lots of buckets lined up on a shelf.
+
 ```c
 #include <stdio.h>
 
