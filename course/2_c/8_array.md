@@ -2,6 +2,10 @@
 
 Arrays are a list of variables. Think of them like lots of buckets lined up on a shelf.
 
+Each bucket in an array is called an `element`.
+
+Each element must have the same type.
+
 ```c
 #include <stdio.h>
 
