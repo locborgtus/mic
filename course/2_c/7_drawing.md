@@ -125,6 +125,7 @@ int main()
 
 ## Exercise ##
 
+Change the seed to see what happens.
 
 ## Homework ##
 
