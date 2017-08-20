@@ -133,4 +133,5 @@ Animate an explosion. Create it by using circles. Hints:
 * Think about what inputs there are to the explosion. For example, the explosion has to start somewhere, and should have a size.
 * Use circles. Start with a small circle, then to a big circle
 * Use the function `clear()` strategically to make the explosion look better
-* Try making many explosions.
+* Try using random numbers to center your explosion at different places.
+* Try different colors when the explosion reaches different sizes. For example, it could be white in the beginning, and red as it gets bigger.
