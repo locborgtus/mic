@@ -101,6 +101,21 @@ Print something out at a particular rate. Get a feel for how long a second is, a
 
 Move a character across the screen. Visit every single square. Use the function `clear()` to remove the last draw.
 
+## Drawing lines ##
+
+```c
+// draw a line from 10,10 to 30,30
+int x1 = 5, y1 = 10;
+int x2 = 20, y2 = 60;
+int dx = x2 - x1;
+int dy = y2 - y1;
+
+for (int x = x1; x < x2; x++) {
+  int y = y1 + dy * (x - x1) / dx;
+  mvaddch(y, x, '#');
+}
+```
+
 ## Random numbers ##
 
 Random numbers are a series of numbers that has no pattern.
