@@ -131,7 +131,7 @@ Like Minecraft stage creation.
 
 ## Exercise ##
 
-Test randomness by running the random number generator many many times (like a million). Check the percentage of numbers under half of `RAND_MAX`, and over half of `RAND_MAX`.
+Test randomness by running the random number generator many many times (like a million). Check the percentage of numbers under half of `RAND_MAX`, and over half of `RAND_MAX` (`RAND_MAX` is from the man page of `srand`).
 
 ## Exercise ##
 
