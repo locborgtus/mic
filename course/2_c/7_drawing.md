@@ -101,21 +101,6 @@ Print something out at a particular rate. Get a feel for how long a second is, a
 
 Move a character across the screen. Visit every single square. Use the function `clear()` to remove the last draw.
 
-## Drawing lines ##
-
-```c
-// draw a line from 10,10 to 30,30
-int x1 = 5, y1 = 10;
-int x2 = 20, y2 = 60;
-int dx = x2 - x1;
-int dy = y2 - y1;
-
-for (int x = x1; x < x2; x++) {
-  int y = y1 + dy * (x - x1) / dx;
-  mvaddch(y, x, '#');
-}
-```
-
 ## Random numbers ##
 
 Random numbers are a series of numbers that has no pattern.
@@ -157,3 +142,26 @@ Animate an explosion. Create it by using circles. Hints:
 * Use the function `clear()` strategically to make the explosion look better
 * Try using random numbers to center your explosion at different places.
 * Try different colors when the explosion reaches different sizes. For example, it could be white in the beginning, and red as it gets bigger.
+
+## Drawing lines ##
+
+This algorithm uses the slope of the line to find what the Y position is. Iterate on X. The current Y is a proportion of where the current X is.
+
+```c
+// draw a line from 10,10 to 30,30
+int x1 = 5, y1 = 10;
+int x2 = 20, y2 = 60;
+int dx = x2 - x1;
+int dy = y2 - y1;
+
+for (int x = x1; x < x2; x++) {
+  int y = y1 + dy * (x - x1) / dx;
+  mvaddch(y, x, '#');
+}
+```
+
+## Exercise ##
+Implement this algorithm and test it. This algorithm doesn't work when X2 is smaller than X1. Fix it.
+
+## Homework ##
+Write a program that draw shapes of different number of edges, up to 12. Take in from the command line parameters that are needed to draw.
