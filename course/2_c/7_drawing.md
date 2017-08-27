@@ -131,6 +131,10 @@ Like Minecraft stage creation.
 
 ## Exercise ##
 
+Test randomness by running the random number generator many many times (like a million). Check the percentage of numbers under half of `RAND_MAX`, and over half of `RAND_MAX`.
+
+## Exercise ##
+
 Change the seed to see what happens.
 
 ## Homework ##
