@@ -152,20 +152,54 @@ Animate an explosion. Create it by using circles. Hints:
 This algorithm uses the slope of the line to find what the Y position is. Iterate on X. The current Y is a proportion of where the current X is.
 
 ```c
-// draw a line from 10,10 to 30,30
-int x1 = 5, y1 = 10;
-int x2 = 20, y2 = 60;
-int dx = x2 - x1;
-int dy = y2 - y1;
+void drawLine(int x0, int y0, int x1, int y1)
+{
+  // Bresenham's line drawing algorithm
+  int sx, sy, e2, err;
 
-for (int x = x1; x < x2; x++) {
-  int y = y1 + dy * (x - x1) / dx;
-  mvaddch(y, x, '#');
+  // calculate slope
+  int dx = abs(x1 - x0);
+  int dy = abs(y1 - y0);
+
+  // calculate the signs to the slope
+  if (x0 < x1) {
+    sx = 1;
+  } else {
+    sx = -1;
+  }
+
+  if (y0 < y1) {
+    sy = 1;
+  } else {
+    sy = -1;
+  }
+
+  // calculate the starting error
+  if (dx > dy) {
+    err = dx / 2;
+  } else {
+    err = -dy / 2;
+  }
+
+  // draw the line
+  while(true) {
+    mvaddch(y0, x0, '#');
+    if (x0 == x1 && y0 == y1) {
+      break;
+    }
+
+    e2 = err;
+
+    // recalculate the error based on line slope and sign
+    // if the error reaches the slope, update the error and current position
+    if (e2 > -dx) { err -= dy; x0 += sx; }
+    if (e2 < dy) { err += dx; y0 += sy; }
+  }
 }
 ```
 
 ## Exercise ##
-Implement this algorithm and test it. This algorithm doesn't work when X2 is smaller than X1. Fix it.
+Implement this algorithm and test it.
 
 ## Homework ##
-Write a program that draw shapes of different number of edges, up to 12. Take in from the command line parameters that are needed to draw.
+Write a program that draw shapes of different number of edges, up to 12. Start with 3, then draw a shape, pause for 1 second, then draw the next.
