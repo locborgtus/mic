@@ -137,6 +137,14 @@ Test randomness by running the random number generator many many times (like a m
 
 Change the seed to see what happens.
 
+## Exercise ##
+
+Implement this code to get random numbers in a range:
+
+```c
+rand() % (max_number + 1 - minimum_number) + minimum_number
+```
+
 ## Homework ##
 
 Animate an explosion. Create it by using circles. Hints:
