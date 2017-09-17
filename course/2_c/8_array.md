@@ -23,3 +23,7 @@ int main()
   }
 }
 ```
+
+## Exercise ##
+
+Fill an array of size 100 with random numbers.
