@@ -52,7 +52,7 @@ You'll be missing one piece of info to print the array. What is it?
 
 ## Exercise ##
 
-Fill an integer array with a large number of random numbers. Find the min and max number in this array, and where they are.
+Fill an integer array with a large number of random numbers (10000). Find the min and max number in this array, and where they are.
 
 Recall how to use rand():
 
