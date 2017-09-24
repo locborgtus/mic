@@ -50,3 +50,30 @@ void print(int array[])
 
 You'll be missing one piece of info to print the array. What is it?
 
+## Exercise ##
+
+Fill an integer array with a large number of random numbers. Write a function to calculate the average.
+
+Recall how to use rand():
+
+```c
+#include <stdio.h>
+#include <stdlib.>
+
+int main()
+{
+  printf("rand max: %d\n", RAND_MAX);
+  srand(4567);
+  for (int i = 0; i < 10; i++) {
+    printf("%d\n", rand());
+  }
+}
+```
+
+You can get a range of random numbers using this piece of code:
+
+```c
+rand() % (max_number + 1 - minimum_number) + minimum_number
+```
+
+Verify that the average is half of the maximum, if minimum is zero.
