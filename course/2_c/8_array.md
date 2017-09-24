@@ -52,7 +52,7 @@ You'll be missing one piece of info to print the array. What is it?
 
 ## Exercise ##
 
-Fill an integer array with a large number of random numbers. Write a function to calculate the average.
+Fill an integer array with a large number of random numbers. Find the min and max number in this array, and where they are.
 
 Recall how to use rand():
 
@@ -70,10 +70,17 @@ int main()
 }
 ```
 
+## Exercise
+
+Use the same basic code as before to fill an array. Write a function to calculate the average.
+
 You can get a range of random numbers using this piece of code:
 
 ```c
 rand() % (max_number + 1 - minimum_number) + minimum_number
 ```
 
+Set max to be 100, and minimum is 0. This is a good place to write a function to get random numbers.
+
 Verify that the average is half of the maximum, if minimum is zero.
+
