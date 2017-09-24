@@ -10,6 +10,10 @@ Declare an array by `int someArray[10];`, where the size is 10.
 
 Access each element with the `[]` operator. So to get the first element, `array[0]`.
 
+Array size can't be changed when program is running. Once you declare it, that's how big it is.
+
+Operations is done element wise.
+
 The last element is `someArray[size - 1]`, because an array starts at 0. If you try accessing out of range, your program may crash.
 
 ```c
@@ -33,10 +37,6 @@ int main()
 ## Exercise ##
 
 Fill an array of size 100 with random numbers. Then print out every 5th element.
-
-Array size can't be changed when program is running. Once you declare it, that's how big it is.
-
-Operations is done element wise.
 
 ## Exercise ##
 
