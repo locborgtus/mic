@@ -80,7 +80,24 @@ You can get a range of random numbers using this piece of code:
 rand() % (max_number + 1 - minimum_number) + minimum_number
 ```
 
-Set max to be 100, and minimum is 0. This is a good place to write a function to get random numbers.
+Set max to be 100, and minimum is 0. This is a good place to write a function to get a range of random numbers.
 
 Verify that the average is half of the maximum, if minimum is zero.
 
+## 2D arrays
+
+A 2 dimensional array can be declared as:
+
+```c
+int array2D[100][200]
+```
+
+Iterate over it with 2 nested for loops:
+
+```c
+for (int i = 0; i < 100; i++) {
+  for (int j = 0; i < 200; j++) {
+    printf("%d ", array2D[i][j]);
+  }
+}
+```
