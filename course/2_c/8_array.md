@@ -101,3 +101,16 @@ for (int i = 0; i < 100; i++) {
   }
 }
 ```
+
+To pass a 2D array to a function, you have to give its size (in a 1D array, you don't)
+
+```c
+void print2d(int array2d[][10])
+{
+  for (int i = 0; i < 10; i++) {
+    for (int j = 0; j < 10; j++) {
+      printf("%d\n", array2d[i][j]);
+    }
+  }
+}
+```
