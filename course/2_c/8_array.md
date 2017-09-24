@@ -82,7 +82,7 @@ rand() % (max_number + 1 - minimum_number) + minimum_number
 
 Set max to be 100, and minimum is 0. This is a good place to write a function to get a range of random numbers.
 
-Verify that the average is half of the maximum, if minimum is zero.
+Verify that the average is half of the sum of maximum and minimum.
 
 ## 2D arrays
 
@@ -114,3 +114,7 @@ void print2d(int array2d[][10])
   }
 }
 ```
+
+## Exercise
+
+Fill in a 2D array with random numbers, and calculate the min, max, and average like you did with 1D array. Set the random number range to be [0, 100].
