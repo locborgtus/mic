@@ -82,7 +82,7 @@ rand() % (max_number + 1 - minimum_number) + minimum_number
 
 Set max to be 100, and minimum is 0. This is a good place to write a function to get a range of random numbers.
 
-Verify that the average is half of the sum of maximum and minimum.
+Verify that the average is (about) half of the sum of maximum and minimum. This only works because it's random numbers.
 
 ## Exercsise / Homework
 
