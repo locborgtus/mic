@@ -90,6 +90,26 @@ Bubble sort. Sorting makes array elements go in one order.
 
 ![Bubble Sort](http://www.xybernetics.com/techtalk/SortingAlgorithmsExplained/images/bubble1.gif)
 
+Using this visualization, develop the code using an array of random numbers. Sort the array using ascending order (from smallest to biggest).
+
+Code (if we're stuck).
+
+
+
+
+
+```c
+for (c = 0 ; c < ( n - 1 ); c++) {
+  for (d = 0 ; d < n - c - 1; d++) { // this is an optimization, we can leave this like a regular loop
+    if (array[d] > array[d + 1]) {   // For decreasing order use <
+      swap       = array[d];
+      array[d]   = array[d + 1];
+      array[d + 1] = swap;
+    }
+  }
+}
+```
+
 ## 2D arrays
 
 A 2 dimensional array can be declared as:
