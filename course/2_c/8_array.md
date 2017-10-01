@@ -94,17 +94,13 @@ Using this visualization, develop the code using an array of random numbers. Sor
 
 Code (if we're stuck).
 
-
-
-
-
 ```c
-for (c = 0 ; c < ( n - 1 ); c++) {
-  for (d = 0 ; d < n - c - 1; d++) { // this is an optimization, we can leave this like a regular loop
-    if (array[d] > array[d + 1]) {   // For decreasing order use <
-      swap       = array[d];
-      array[d]   = array[d + 1];
-      array[d + 1] = swap;
+for (i = 0 ; i < ( n - 1 ); i++) {
+  for (j = 0 ; j < n - i - 1; j++) { // this is an optimization, we can leave this like a regular loop
+    if (array[j] > array[j + 1]) {   // For decreasing order use <
+      swap       = array[j];
+      array[j]   = array[j + 1];
+      array[j + 1] = swap;
     }
   }
 }
