@@ -84,6 +84,12 @@ Set max to be 100, and minimum is 0. This is a good place to write a function to
 
 Verify that the average is half of the sum of maximum and minimum.
 
+## Exercsise / Homework
+
+Bubble sort. Sorting makes array elements go in one order.
+
+![Bubble Sort](http://pad2.whstatic.com/images/thumb/6/6e/Use-Seeds-in-Minecraft-Step-3.jpg/aid5974520-v4-728px-Use-Seeds-in-Minecraft-Step-3.jpg)
+
 ## 2D arrays
 
 A 2 dimensional array can be declared as:
