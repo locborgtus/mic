@@ -88,7 +88,7 @@ Verify that the average is half of the sum of maximum and minimum.
 
 Bubble sort. Sorting makes array elements go in one order.
 
-![Bubble Sort](http://pad2.whstatic.com/images/thumb/6/6e/Use-Seeds-in-Minecraft-Step-3.jpg/aid5974520-v4-728px-Use-Seeds-in-Minecraft-Step-3.jpg)
+![Bubble Sort](http://www.xybernetics.com/techtalk/SortingAlgorithmsExplained/images/bubble1.gif)
 
 ## 2D arrays
 
