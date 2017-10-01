@@ -127,7 +127,7 @@ Random numbers are useful to make game artificial intelligence (AI). The game ca
 
 Like Minecraft stage creation.
 
-![Minecraft Seed](http://pad2.whstatic.com/images/thumb/6/6e/Use-Seeds-in-Minecraft-Step-3.jpg/aid5974520-v4-728px-Use-Seeds-in-Minecraft-Step-3.jpg)
+![Minecraft Seed](http://www.xybernetics.com/techtalk/SortingAlgorithmsExplained/images/bubble1.gif)
 
 ## Exercise ##
 
