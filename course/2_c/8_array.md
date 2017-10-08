@@ -84,6 +84,20 @@ Set max to be 100, and minimum is 0. This is a good place to write a function to
 
 Verify that the average is (about) half of the sum of maximum and minimum. This only works because it's random numbers.
 
+## Excercise
+
+Quick exercise: copy 1 array to another
+
+```c
+void copyArray(int src[], int dst[], int size)
+{
+}
+```
+
+## Exercise
+
+Print the set of duplicate numbers in an array. F
+
 ## Exercsise / Homework
 
 Bubble sort. Sorting makes array elements go in one order.
