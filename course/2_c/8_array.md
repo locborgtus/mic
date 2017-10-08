@@ -96,7 +96,7 @@ void copyArray(int src[], int dst[], int size)
 
 ## Exercise
 
-Find and print the set of duplicate numbers in an array. Your set of duplicate numbers should be in an array of its own. What is the proper size for the duplicate array?
+Find and print the set of duplicate numbers in an array. Your set of duplicate numbers should be in an array of its own. What is the proper size for the duplicate array? Remember you have a set of positive integers, use negative integers to your advantage.
 
 ```c
 void findDups(int array[], int dups[], int size)
