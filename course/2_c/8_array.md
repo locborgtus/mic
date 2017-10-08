@@ -96,7 +96,27 @@ void copyArray(int src[], int dst[], int size)
 
 ## Exercise
 
-Print the set of duplicate numbers in an array. F
+Find and print the set of duplicate numbers in an array. Your set of duplicate numbers should be in an array of its own. What is the proper size for the duplicate array?
+
+```c
+void findDups(int array[], int dups[], int size)
+{
+}
+```
+
+## Exercise
+
+Continuing from the previous exercise, count how many times each duplicate appears. Think of what other storage you need in order to count duplicates.
+
+## Exercise
+
+Continuing from the previous exercise, remove all the duplicate numbers from the array. You will need to write a function called `shiftLeft`. The function moves every element left by 1 position. It should have this declaration:
+
+```
+void shiftLeft(int array[], int size, int pos)
+{
+}
+```
 
 ## Exercsise / Homework
 
