@@ -130,11 +130,15 @@ void shiftRight(int array[], int size, int pos)
 
 ## Exercise / Homework
 
-Implement a `queue` and a `stack`. A Queue uses an array to keep track of elements in a last in, first out way. A stack also stores elements, but in a first in, first out way.
+Implement a `queue` and a `stack`. A Queue uses an array to keep track of elements in a last in, first out way. Also called FIFO. A stack also stores elements, but in a first in, first out way. Also called LIFO.
+
+Assume positive integers for data type.
 
 For a queue, write functions `enqueue()`, `dequeue()`, `reset()`, and `length()`.
 
 For a stack, write functions `push()`, `pop()`, `reset()`, and `length()`.
+
+Write enough sample uses of each to test corner cases, like dequeue when empty and pushing when full.
 
 ## Exercsise / Homework
 
