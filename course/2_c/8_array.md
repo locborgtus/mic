@@ -112,11 +112,29 @@ Continuing from the previous exercise, count how many times each duplicate appea
 
 Continuing from the previous exercise, remove all the duplicate numbers from the array. You will need to write a function called `shiftLeft`. The function moves every element left by 1 position. Remember that your random numbers should be positive, so use this to help you keep track of empty elements. The function should have this declaration:
 
-```
+```c
 void shiftLeft(int array[], int size, int pos)
 {
 }
 ```
+
+## Exercise
+
+Write a function to add a number to the array at a particular position. Very similar to removing, but the other direction. For now, assume the array can't grow, so the last element gets dropped when adding.
+
+```c
+void shiftRight(int array[], int size, int pos)
+{
+}
+```
+
+## Exercise / Homework
+
+Implement a `queue` and a `stack`. A Queue uses an array to keep track of elements in a last in, first out way. A stack also stores elements, but in a first in, first out way.
+
+For a queue, write functions `enqueue()`, `dequeue()`, `reset()`, and `length()`.
+
+For a stack, write functions `push()`, `pop()`, `reset()`, and `length()`.
 
 ## Exercsise / Homework
 
