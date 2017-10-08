@@ -110,7 +110,7 @@ Continuing from the previous exercise, count how many times each duplicate appea
 
 ## Exercise
 
-Continuing from the previous exercise, remove all the duplicate numbers from the array. You will need to write a function called `shiftLeft`. The function moves every element left by 1 position. It should have this declaration:
+Continuing from the previous exercise, remove all the duplicate numbers from the array. You will need to write a function called `shiftLeft`. The function moves every element left by 1 position. Remember that your random numbers should be positive, so use this to help you keep track of empty elements. The function should have this declaration:
 
 ```
 void shiftLeft(int array[], int size, int pos)
