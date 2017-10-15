@@ -106,6 +106,15 @@ void findDups(int array[], int dups[], int size, int dupSize)
 
 The duplicate array size should be half the original array size. This is because in a worst-case scenario, every duplicate happens only twice.
 
+You need to check if the duplicate value exists on the dups array. It might help if you write a function that checks if a value is inside an array:
+
+```c
+int isValInArray(int array[], int value)
+{
+  // if value is in the array, return true. otherwise, return false.
+}
+```
+
 ## Exercise
 
 Continuing from the previous exercise, count how many times each duplicate appears. Think of what other storage you need in order to count duplicates.
