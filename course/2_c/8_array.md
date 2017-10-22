@@ -94,12 +94,12 @@ void copyArray(int src[], int dst[], int size)
 }
 ```
 
-Prove that the 2 arrays are the same. Write a function called `isArrayEqual()`:
+Prove that the 2 arrays are the same. Write a function:
 
 ```c
-int isArrayEqual()
+int areArraysEqual(int array1[], int array2[])
 {
-  // return 1 if array is the same, 0 if not same
+  // return 1 if arrays are the same, 0 if not same
 }
 ```
 
