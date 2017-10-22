@@ -90,7 +90,7 @@ Verify that the average is (about) half of the sum of maximum and minimum. This 
 Exercise: copy 1 array to another
 
 ```c
-void copyArray(int src[], int dst[], int size)
+void copyArray(int src[], int dst[])
 {
 }
 ```
@@ -140,7 +140,7 @@ For the following exercises, use 20 as the maximum array size.
 Find and print the set of duplicate numbers in an array. Your set of duplicate numbers should be in an array of its own. What is the proper size for the duplicate array? Remember you have a set of positive integers, use negative integers to your advantage.
 
 ```c
-void findDups(int array[], int dups[], int size, int dupSize)
+void findDups(int array[], int dups[])
 {
 }
 ```
@@ -173,7 +173,7 @@ getValueIndex(int array[], int value)
 Continuing from the previous exercise, remove all the duplicate numbers from the array. You will need to write a function called `shiftLeft`. The function moves every element left by 1 position. Remember that your random numbers should be positive, so use this to help you keep track of empty elements. The function should have this declaration:
 
 ```c
-void shiftLeft(int array[], int size, int pos)
+void shiftLeft(int array[], int pos)
 {
 }
 ```
@@ -183,7 +183,7 @@ void shiftLeft(int array[], int size, int pos)
 Write a function to add a number to the array at a particular position. Very similar to removing, but the other direction. For now, assume the array can't grow, so the last element gets dropped when adding.
 
 ```c
-void shiftRight(int array[], int size, int pos)
+void shiftRight(int array[], int pos)
 {
 }
 ```
