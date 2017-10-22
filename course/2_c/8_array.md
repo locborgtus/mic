@@ -44,7 +44,7 @@ Fill an array of size 100 with random numbers. Then print out every 5th element.
 Create a function called `printArray` that prints the contents of an integer array. Use this to declare the function.
 
 ```c
-void print(int array[])
+void printArray(int array[])
 {
 }
 ```
