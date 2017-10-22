@@ -96,6 +96,30 @@ void copyArray(int src[], int dst[], int size)
 
 ## Exercise
 
+As discussed before, an array size cannot be changed after it's been made. We need a way to keep track of how much the array is actually occupied by a number.
+
+Our numbers range from 0 to 100. Use -1 as an empty marker.
+
+Write the functions:
+
+```c
+void initializeArray(int array[])
+{
+  // set every element to -1
+}
+```
+
+```c
+int getArraySize(int array[])
+{
+  // return how many elements are occupied (not -1)
+}
+```
+
+Also update the printArray() function to print only occupied elements.
+
+## Exercise
+
 Find and print the set of duplicate numbers in an array. Your set of duplicate numbers should be in an array of its own. What is the proper size for the duplicate array? Remember you have a set of positive integers, use negative integers to your advantage.
 
 ```c
