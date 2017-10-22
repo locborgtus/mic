@@ -128,7 +128,9 @@ int getArraySize(int array[])
 }
 ```
 
-Also update the printArray() function to print only occupied elements.
+Also update the `printArray()` function to print only occupied elements.
+
+Edit your base code to use `initalizeArray()` whenever arrays are created.
 
 ## Exercise
 
