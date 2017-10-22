@@ -155,7 +155,15 @@ int isValInArray(int array[], int value)
 
 ## Exercise
 
-Continuing from the previous exercise, count how many times each duplicate appears. Think of what other storage you need in order to count duplicates.
+Continuing from the previous exercise, count how many times each duplicate appears. Think of what other storage you need in order to count duplicates. It might help to write a function:
+
+```c
+getValueIndex(int array[], int value)
+{
+  // return the index the value is in
+  // return -1 if the value doesn't exist
+}
+```
 
 ## Exercise
 
