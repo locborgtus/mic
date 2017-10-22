@@ -41,7 +41,7 @@ Fill an array of size 100 with random numbers. Then print out every 5th element.
 
 ## Exercise ##
 
-Create a function called `print` that prints the contents of an integer array. Use this to declare the function.
+Create a function called `printArray` that prints the contents of an integer array. Use this to declare the function.
 
 ```c
 void print(int array[])
