@@ -19,16 +19,17 @@ The last element is `someArray[size - 1]`, because an array starts at 0. If you 
 ```c
 #include <stdio.h>
 
+const int MAX_SIZE = 10;
+
 int main()
 {
-  int size = 10;
-  int array[size];
+  int array[MAX_SIZE];
 
-  for (int i = 0; i < size; i++) {
+  for (int i = 0; i < MAX_SIZE; i++) {
     array[i] = i + 100;
   }
 
-  for (int i = 0; i < size; i++) {
+  for (int i = 0; i < MAX_SIZE; i++) {
     printf("%d\n", array[i]);
   }
 }
@@ -131,6 +132,8 @@ int getArraySize(int array[])
 Also update the `printArray()` function to print only occupied elements.
 
 Edit your base code to use `initalizeArray()` whenever arrays are created.
+
+For the following exercises, use 20 as the maximum array size.
 
 ## Exercise
 
