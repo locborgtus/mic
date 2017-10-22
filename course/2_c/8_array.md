@@ -86,13 +86,24 @@ Verify that the average is (about) half of the sum of maximum and minimum. This 
 
 ## Excercise
 
-Quick exercise: copy 1 array to another
+Exercise: copy 1 array to another
 
 ```c
 void copyArray(int src[], int dst[], int size)
 {
 }
 ```
+
+Prove that the 2 arrays are the same. Write a function called `isArrayEqual()`:
+
+```c
+int isArrayEqual()
+{
+  // return 1 if array is the same, 0 if not same
+}
+```
+
+Remember the `break;` key word. It lets you break out of a loop early.
 
 ## Exercise
 
