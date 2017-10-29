@@ -200,6 +200,14 @@ For a stack, write functions `push()`, `pop()`, `reset()`, and `length()`.
 
 Write enough sample uses of each to test corner cases, like dequeue when empty and pushing when full.
 
+## Exercise / Homework
+
+Create a program that displays many objects (like squares or circles) on the screen. These objects will expire over time. Instructions:
+
+1. Use a 2D array to keep track of where objects are. Let 1 = squares, 2 = circles, and so on.
+2. When the program starts, create a set of objects randomly and store their coordinates onto a queue.
+3. Every 1 second, draw the 2D array to the screen. Every second, remove an object from the queue and the 2D array.
+
 ## Exercsise / Homework
 
 Bubble sort. Sorting makes array elements go in one order.
