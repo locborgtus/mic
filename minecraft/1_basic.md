@@ -34,3 +34,9 @@ Test all these keys to make sure they work.
 * Create a new folder called `Minecraft` in `/home/pi/Documents` by right clicking, select `Create New`.
 * Open `IDLE`. Click the berry, then `Programming`, then `Python 2 (IDLE)`
 * Create a new file in IDLE, then save it as `first.py`
+
+### Basic Python ###
+
+```python
+print "hello world"
+```
