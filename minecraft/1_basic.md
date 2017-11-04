@@ -45,6 +45,8 @@ print("hello world")
 
 Push `F5` to run the program. When asked to save, click `OK` or hit enter.
 
+`print` is a function. It does something for us. In this case, prints to the screen.
+
 Print multiple things:
 
 ```python
