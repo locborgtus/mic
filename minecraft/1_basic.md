@@ -49,7 +49,7 @@ Print multiple things:
 
 ```python
 name = "Simon"
-print("hello world", name)
+print "hello world", name
 ```
 
 More complicated:
@@ -57,14 +57,14 @@ More complicated:
 ```python
 name = "Simon
 age = 39
-print("hello world", name, "my age is", age)
+print "hello world", name, "my age is", age
 ```
 
 Comments:
 
 ```python
 # this line gets ignored. this helps us explain what our program does.
-print("hello world")
+print "hello world"
 ```
 
 ## Basic Minecraft with Python ##
