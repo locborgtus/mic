@@ -75,5 +75,5 @@ import mcpi.minecraft as minecraft
 mc = minecraft.Minecraft.create()
 
 # get our position
-pos = mc.getPos()
+pos = mc.player.getTilePos()
 ```
