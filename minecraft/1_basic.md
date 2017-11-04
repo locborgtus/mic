@@ -57,3 +57,18 @@ name = "Simon
 age = 39
 print "hello world", name, "my age is", age
 ```
+
+Comments:
+
+```python
+# this line gets ignored. this helps us explain what our program does.
+print "hello world"
+```
+
+## Basic Minecraft with Python ##
+
+```python
+# connects our program to minecraft
+import mcpi.minecraft as minecraft
+mc = minecraft.Minecraft.create()
+```
