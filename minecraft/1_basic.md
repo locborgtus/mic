@@ -27,6 +27,8 @@ Test all these keys to make sure they work.
 
 ## Start programming Python ##
 
+### Make a new program ###
+
 * Explain what folders and files are, as simple as possible
 * Open `File Manager` (3rd icon to the right on top)
 * Create a new folder called `Minecraft` in `/home/pi/Documents` by right clicking, select `Create New`.
