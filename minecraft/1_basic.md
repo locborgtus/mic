@@ -40,7 +40,7 @@ Test all these keys to make sure they work.
 Enter code to print something:
 
 ```python
-print "hello world"
+print("hello world")
 ```
 
 Push `F5` to run the program. When asked to save, click `OK` or hit enter.
@@ -49,7 +49,7 @@ Print multiple things:
 
 ```python
 name = "Simon"
-print "hello world", name
+print("hello world", name)
 ```
 
 More complicated:
@@ -57,14 +57,14 @@ More complicated:
 ```python
 name = "Simon
 age = 39
-print "hello world", name, "my age is", age
+print("hello world", name, "my age is", age)
 ```
 
 Comments:
 
 ```python
 # this line gets ignored. this helps us explain what our program does.
-print "hello world"
+print("hello world")
 ```
 
 ## Basic Minecraft with Python ##
@@ -82,4 +82,4 @@ print tilePos
 print pos
 ```
 
-What's the difference?
+What's the difference between `getTilePos` and `getPos()`?
