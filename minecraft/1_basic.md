@@ -75,5 +75,11 @@ import mcpi.minecraft as minecraft
 mc = minecraft.Minecraft.create()
 
 # get our position
-pos = mc.player.getTilePos()
+tilePos = mc.player.getTilePos()
+pos = mc.player.getPos()
+
+print tilePos
+print pos
 ```
+
+What's the difference?
