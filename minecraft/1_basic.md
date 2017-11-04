@@ -43,6 +43,8 @@ Enter code to print something:
 print "hello world"
 ```
 
+Push `F5` to run the program. When asked to save, click `OK` or hit enter.
+
 Print multiple things:
 
 ```python
@@ -71,4 +73,7 @@ print "hello world"
 # connects our program to minecraft
 import mcpi.minecraft as minecraft
 mc = minecraft.Minecraft.create()
+
+# get our position
+pos = mc.getPos()
 ```
