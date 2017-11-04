@@ -37,6 +37,23 @@ Test all these keys to make sure they work.
 
 ### Basic Python ###
 
+Enter code to print something:
+
 ```python
 print "hello world"
+```
+
+Print multiple things:
+
+```python
+name = "Simon"
+print "hello world", name
+```
+
+More complicated:
+
+```python
+name = "Simon
+age = 39
+print "hello world", name, "my age is", age
 ```
