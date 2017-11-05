@@ -47,7 +47,7 @@ print("hello world")
 
 Push `F5` to run the program. When asked to save, click `OK` or hit enter.
 
-`print` is a function. It does something for us. In this case, prints to the screen.
+`print` is a function. It does something for us. In this case, prints to a window called "python shell".
 
 Print multiple things:
 
@@ -72,6 +72,21 @@ print "hello world"
 ```
 
 Close this file when done.
+
+## Hello world in Minecraft ##
+
+We will learn how to write a program that talks to minecraft. We do this by printing "hello world" to minecraft instead of python shell.
+
+Make a new file in IDLE called `hello_minecraft.py`.
+
+```python
+# connects our program to minecraft
+import mcpi.minecraft as minecraft
+mc = minecraft.Minecraft.create()
+
+# print
+mc.postToChat("Hello world")
+```
 
 ## Teleport in Python ##
 
@@ -109,7 +124,7 @@ z = 12
 mc.player.setTilePos(x, y, z)
 ```
 
-Change x, y, z to whatever you want. The number has to be within -127, 127. Try positive and negative numbers. Explain how to express ranges using `()` and `[]`.
+Change x, y, z to whatever you want. The number has to be within -127, 127 because minecraft pi world is small. Try positive and negative numbers. Explain how to express ranges using `()` and `[]`.
 
 You can also use arithmetic.
 
