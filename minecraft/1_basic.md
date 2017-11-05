@@ -170,3 +170,13 @@ print tilePos
 ```
 
 Difference is decimal vs. whole numbers. Explain the difference, if the concept.
+
+Try to teleport again, but this time precisely:
+
+```python
+x = 10.2
+y = 11.7
+z = 12.3
+
+mc.player.setPos(x, y, z)
+```
