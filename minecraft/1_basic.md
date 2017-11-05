@@ -107,6 +107,7 @@ mc = minecraft.Minecraft.create()
 pos = mc.player.getTilePos()
 
 print pos.x, pos.y, pos.z
+print pos
 ```
 
 Explain coordinate system. X and Z is the flat land. Y is your height.
