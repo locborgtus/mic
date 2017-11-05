@@ -180,3 +180,5 @@ z = 12.3
 
 mc.player.setPos(x, y, z)
 ```
+
+Change the position slightly (a small decimal value) and see what happens.
