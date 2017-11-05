@@ -84,6 +84,14 @@ print tilePos
 
 Explain coordinate system. X and Z is the flat land. Y is your height.
 
+Let's teleport. Add this line to the bottom of your program:
+
+```python
+# teleports us to x = 10, y = 11, z = 12
+mc.player.setTilePos(10, 11, 12)
+```
+
+
 ```python
 pos = mc.player.getPos()
 print pos
