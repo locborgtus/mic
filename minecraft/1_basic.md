@@ -44,10 +44,10 @@ Remember to get out using `tab`, or `alt-tab`. If you can't look around in minec
 Enter code to print something:
 
 ```python
-print("hello world")
+print "hello world"
 ```
 
-Push `F5` to run the program. When asked to save, click `OK` or hit enter.
+Push `F5` to run the program. When asked to save, click `OK` or hit `enter` key.
 
 `print` is a function. It does something for us. In this case, prints to a window called "python shell".
 
@@ -73,6 +73,8 @@ Comments:
 print "hello world"
 ```
 
+The computer is dumb. Try getting rid of a `"` in a print line, and run the program. See what happens.
+
 Close this file when done.
 
 ## Hello world in Minecraft ##
@@ -89,6 +91,8 @@ mc = minecraft.Minecraft.create()
 # print
 mc.postToChat("Hello world")
 ```
+
+We just wrote a program that can talk to minecraft.
 
 ## Teleport in Python ##
 
