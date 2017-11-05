@@ -94,7 +94,7 @@ mc.postToChat("Hello world")
 
 We just wrote a program that can talk to minecraft.
 
-## Teleport in Python ##
+## Teleport ##
 
 Make a new file called `teleport.py`
 
@@ -147,7 +147,26 @@ In this case, x doesn't change. How do you prove it didn't change?
 
 Exercise: teleport to your current position, but forward in x by 10. Hint: you can't just use a number. You have to use your current position to start.
 
+Close this file when done.
+
+## Precise teleport ##
+
+Make a new file called "precise_teleport.py".
+
 ```python
+# connects our program to minecraft
+import mcpi.minecraft as minecraft
+mc = minecraft.Minecraft.create()
+
 pos = mc.player.getPos()
 print pos
 ```
+
+What's the difference between getPos() and getTilePos()? If unsure, input the line and compare.
+
+```python
+tilePos = mc.player.getTilePos()
+print tilePos
+```
+
+Difference is decimal vs. whole numbers. Explain the difference, if the concept.
