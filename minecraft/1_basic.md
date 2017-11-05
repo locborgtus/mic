@@ -195,6 +195,7 @@ import mcpi.minecraft as minecraft
 mc = minecraft.Minecraft.create()
 
 # x, y, z, then block type. 1 is stone.
+# use coordinates near you, from the screen, so you can see the new block
 mc.setBlock(10, 11, 12, 1)
 ```
 
@@ -275,9 +276,25 @@ GLOWING_OBSIDIAN    246
 NETHER_REACTOR_CORE 247
 ```
 
-Activity: Add a block next to you. Once you've added one, pick another block type and see if the block changes.
+Activity: Add a block next to you. Remember how to find where you are. Once you've added one, pick another block type and see if the block changes.
 
-Activity: Add 5 blocks in a line.
+You can also get them list from Python.
+
+```python
+# get block list
+from mcpi import block
+
+# use the ID from the block list. look at the name, it matches the list.
+mc.setBlock(10, 10, 10, block.STONE.id)
+```
+
+Activity: Add 5 blocks in a row. Use the ID list.
+
+```python
+# advanced!
+for i in range(0, 3):
+  mc.setBlock(10 + i, 10, 10, block.STONE.id)
+```
 
 You can also make a cube of blocks.
 
