@@ -25,6 +25,8 @@ Play around. Keys:
 
 Test all these keys to make sure they work.
 
+Resize the window by using `tab` to about half the screen, on the right side.
+
 Remember to get out using `tab`, or `alt-tab`. If you can't look around in minecraft, make sure to click on the mouse.
 
 ## Start programming Python ##
