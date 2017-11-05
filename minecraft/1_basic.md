@@ -25,6 +25,8 @@ Play around. Keys:
 
 Test all these keys to make sure they work.
 
+Remember to get out using `tab`, or `alt-tab`. If you can't look around in minecraft, make sure to click on the mouse.
+
 ## Start programming Python ##
 
 ### Make a new program ###
@@ -81,9 +83,9 @@ import mcpi.minecraft as minecraft
 mc = minecraft.Minecraft.create()
 
 # get our position
-tilePos = mc.player.getTilePos()
+pos = mc.player.getTilePos()
 
-print tilePos.x, tilePos.y, tilePos.z
+print pos.x, pos.y, pos.z
 ```
 
 Explain coordinate system. X and Z is the flat land. Y is your height.
