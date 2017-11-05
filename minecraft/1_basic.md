@@ -78,10 +78,13 @@ mc = minecraft.Minecraft.create()
 
 # get our position
 tilePos = mc.player.getTilePos()
-pos = mc.player.getPos()
 
 print tilePos
-print pos
 ```
 
-What's the difference between `getTilePos` and `getPos()`?
+Explain coordinate system. X and Z is the flat land. Y is your height.
+
+```python
+pos = mc.player.getPos()
+print pos
+```
