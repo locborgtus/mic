@@ -202,6 +202,10 @@ We use `q` and `s` to denote those function belong to queue and stack.
 
 Write enough sample uses of each to test corner cases, like dequeue when empty and pushing when full.
 
+## Exercise
+
+Use header files and separate source files to design our program. Show how to build using object files and linking. Write a simple shell script to build for us.
+
 ## Exercise / Homework
 
 Create a program that displays many objects (like squares or circles) on the screen. These objects will expire over time. Instructions:
