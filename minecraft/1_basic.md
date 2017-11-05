@@ -148,6 +148,14 @@ In this case, x doesn't change. How do you prove it didn't change?
 
 Exercise: teleport to your current position, but forward in x by 10. Hint: you can't just use a number. You have to use your current position to start.
 
+Go into flight mode with double space. Post your current location to minecraft by entering this line at the end of your file:
+
+```python
+mc.postToChat(pos)
+```
+
+It's not posting the position correctly. Why? You need to set your `pos` variable again.
+
 Close this file when done.
 
 ## Precise teleport ##
