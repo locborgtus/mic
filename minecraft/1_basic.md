@@ -275,4 +275,17 @@ GLOWING_OBSIDIAN    246
 NETHER_REACTOR_CORE 247
 ```
 
-Activity: Change the block type right under you.
+Activity: Add a block next to you. Once you've added one, pick another block type and see if the block changes.
+
+Activity: Add 5 blocks in a line.
+
+You can also make a cube of blocks.
+
+```python
+# x1, y1, z1, x2, y2, z2, type
+mc.setBlocks(10, 10, 10, 15, 15, 15, 1)
+```
+
+Try changing these numbers, and make different sorts of rectangular blocks.
+
+So now you've added a lot of these blocks. How do we erase them? (hint: what does "empty space" have?)
