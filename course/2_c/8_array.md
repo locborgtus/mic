@@ -194,9 +194,11 @@ Implement a `queue` and a `stack`. A Queue uses an array to keep track of elemen
 
 Assume positive integers for data type.
 
-For a queue, write functions `enqueue()`, `dequeue()`, `reset()`, and `length()`.
+For a queue, write functions `qEnqueue()`, `qDequeue()`, `qReset()`, and `qLength()`.
 
-For a stack, write functions `push()`, `pop()`, `reset()`, and `length()`.
+For a stack, write functions `sPush()`, `sPop()`, `sReset()`, and `sLength()`.
+
+We use `q` and `s` to denote those function belong to queue and stack.
 
 Write enough sample uses of each to test corner cases, like dequeue when empty and pushing when full.
 
