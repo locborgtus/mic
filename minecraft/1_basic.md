@@ -291,9 +291,9 @@ mc.setBlock(10, 10, 10, block.STONE.id)
 Activity: Add 5 blocks in a row. Use the ID list.
 
 ```python
-# advanced!
-for i in range(0, 3):
-  mc.setBlock(10 + i, 10, 10, block.STONE.id)
+# advanced! optional, to show how we can do this very quickly
+for i in range(0, 20):
+  mc.setBlock(10, 10 + i, 10, block.STONE.id)
 ```
 
 You can also make a cube of blocks.
