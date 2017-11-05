@@ -31,9 +31,9 @@ Test all these keys to make sure they work.
 
 * Explain what folders and files are, as simple as possible
 * Open `File Manager` (3rd icon to the right on top)
-* Create a new folder called `Minecraft` in `/home/pi/Documents` by right clicking, select `Create New`.
+* Create a new folder called `Minecraft (name)` in `/home/pi/Documents` by right clicking, select `Create New`.
 * Open `IDLE`. Click the berry, then `Programming`, then `Python 2 (IDLE)`
-* Create a new file in IDLE, then save it as `first.py`
+* Create a new file in IDLE, then save it as `hello.py`
 
 ### Basic Python ###
 
@@ -69,7 +69,11 @@ Comments:
 print "hello world"
 ```
 
-## Basic Minecraft with Python ##
+Close this file when done.
+
+## Teleport in Python ##
+
+Make a new file called `teleport.py`
 
 ```python
 # connects our program to minecraft
@@ -79,7 +83,7 @@ mc = minecraft.Minecraft.create()
 # get our position
 tilePos = mc.player.getTilePos()
 
-print tilePos
+print tilePos.x, tilePos.y, tilePos.z
 ```
 
 Explain coordinate system. X and Z is the flat land. Y is your height.
@@ -91,6 +95,34 @@ Let's teleport. Add this line to the bottom of your program:
 mc.player.setTilePos(10, 11, 12)
 ```
 
+Your position is 0.5 off because your head is in the middle of the block.
+
+You can also use variables.
+
+```python
+x = 10
+y = 11
+z = 12
+
+mc.player.setTilePos(x, y, z)
+```
+
+Change x, y, z to whatever you want. The number has to be within -127, 127. Try positive and negative numbers. Explain how to express ranges using `()` and `[]`.
+
+You can also use arithmetic.
+
+```python
+x = 10
+y = 11
+z = 12
+
+# adding 5 to teleport x coordinate
+mc.player.setTilePos(x + 5, y, z)
+```
+
+In this case, x doesn't change. How do you prove it didn't change?
+
+Exercise: teleport to your current position, but forward in x by 10. Hint: you can't just use a number. You have to use your current position to start.
 
 ```python
 pos = mc.player.getPos()
