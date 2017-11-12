@@ -183,7 +183,7 @@ void shiftLeft(int array[], int pos)
 Write a function to add a number to the array at a particular position. Very similar to removing, but the other direction. For now, assume the array can't grow, so the last element gets dropped when adding.
 
 ```c
-void shiftRight(int array[], int pos)
+void shiftRight(int array[], int pos, int value)
 {
 }
 ```
