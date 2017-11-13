@@ -297,7 +297,16 @@ from mcpi import block
 mc.setBlock(10, 10, 10, block.STONE.id)
 ```
 
-Activity: Add 10 blocks in a row. Use the ID list. You will use 10 lines, each line adding one block.
+Activity: Add 10 blocks in a row. Use the ID list. You will use 10 lines, each line adding one block. Example:
+
+```python
+mc.setBlock(10, 10, 10, block.STONE.id)
+mc.setBlock(11, 10, 10, block.STONE.id)
+```
+
+And so on.
+
+One day, we will learn to do this in very little lines:
 
 ```python
 # advanced! optional, to show how we can do this very quickly
