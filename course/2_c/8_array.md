@@ -224,7 +224,7 @@ Bubble sort. Sorting makes array elements go in one order.
 
 Using this visualization, develop the code using an array of random numbers. Sort the array using ascending order (from smallest to biggest).
 
-Code (if we're stuck).
+Write the following code. Create a sample array of 10 elements of random numbers (use small numbers, like 0 - 100). Print out the array every outer loop (or inner loop as needed) to see how the bubble sort algorithm works.
 
 ```c
 for (i = 0 ; i < ( n - 1 ); i++) {
