@@ -2,7 +2,7 @@
 
 Strings are array of chars. 
 
-At the end of the string, there is a end-of-string marker of the integer value 0, also called the "terminating null character".
+At the end of the string, there is a terminating marker of the integer value 0. It's also called the "terminating null character". This character takes up 1 space at the end. So every string length is actually the characters + 1.
 
 Use double quotes to contain strings. Example:
 
