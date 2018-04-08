@@ -10,3 +10,9 @@ Use double quotes to contain strings. Example:
 "hello world"
 ```
 
+If you want to use certain reserved characters (like the double quote), use a backslash to "escape" the character:
+
+```c
+"hello \"world\""
+```
+
