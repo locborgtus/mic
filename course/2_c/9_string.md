@@ -29,3 +29,5 @@ Typical functions for string manipulation:
 * strrchr - string scanning operation, looks for the last occurence instead of first
 
 Write example programs to understand what they do. Use the man pages to see how they are called by typing `man strcat`, for example.
+
+* At this time during the lesson, the student should know enough about loops, variables, and arrays to be able to write these functions from scratch. Try to do this on a white board or on paper.
