@@ -19,13 +19,13 @@ If you want to use certain reserved characters (like the double quote), use a ba
 Typical functions for string manipulation:
 
 * strlen - get string length
-* strcat - concatenate two strings
-* strchr - string scanning operation, looks for the first occurrence of a string
-* strcmp - compare two strings
 * strcpy - copy a string
+* strcat - concatenate two strings
+* strcmp - compare two strings
+* strchr - string scanning operation, looks for the first occurrence of a string
+* strncpy - copy part of a string
 * strncat - concatenate one string with part of another
 * strncmp - compare parts of two strings
-* strncpy - copy part of a string
 * strrchr - string scanning operation, looks for the last occurence instead of first
 
 Write example programs to understand what they do. Use the man pages to see how they are called by typing `man strcat`, for example.
