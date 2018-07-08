@@ -27,6 +27,7 @@ Typical functions for string manipulation:
 * strncat - concatenate one string with part of another
 * strncmp - compare parts of two strings
 * strrchr - string scanning operation, looks for the last occurence instead of first
+* strstr - find a string inside another string (needle in a haystack)
 
 Write example programs to understand what they do. Use the man pages to see how they are called by typing `man strcat`, for example.
 
