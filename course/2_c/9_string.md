@@ -37,10 +37,10 @@ At this time during the lesson, the student should know enough about loops, vari
 
 Be rigorous about writing test cases. Test as much of the strange (corner) cases as possible.
 
-## Exercise 2
+## Project 2
 
 Complete a series of these exercises:
 
-* count the number of vowels, consonants
+* Count the number of vowels, consonants
 * Find the Frequency of Characters in a String
 * Remove Characters in String Except Alphabets (hint: alphabet characters are together)
