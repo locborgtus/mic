@@ -53,21 +53,21 @@ structArray[0].i = 10;
 
 ```
 
-# Exercise 1
+## Exercise 1
 
 Define an example struct. Put an integer, a float, and a char in it. Make an array out of the struct. Write a program that fills the array with sample data, then print it out.
 
-# Exercise 2
+## Exercise 2
 
 Test passing in a struct variable into a function. Change the struct variable inside the function, and check what happens to the struct variable inside and outside the function. Make sure `return` on a struct variable does what you expect it to do.
 
-# Project 1
+## Project 1
 
 Define a struct that holds the contact for a person, like an address book entry. Come up with fields that are useful.
 
 Write a sample application that writes and reads the struct. Use header files to define the struct, then a main application that uses the struct.
 
-# Project 2
+## Project 2
 
 Create an application that holds a set of 2D geometric shapes. The most basic building block is a point, then lines.
 
