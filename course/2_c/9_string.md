@@ -20,20 +20,24 @@ Typical functions for string manipulation:
 
 * strlen - get string length
 * strcpy - copy a string
+* strchr - string scanning operation, looks for the first occurrence of a character
 * strcat - concatenate two strings
-* strcmp - compare two strings
-* strchr - string scanning operation, looks for the first occurrence of a string
-* strncpy - copy part of a string
-* strncat - concatenate one string with part of another
-* strncmp - compare parts of two strings
-* strrchr - string scanning operation, looks for the last occurence instead of first
 * strstr - find a string inside another string (needle in a haystack)
+* strcmp - compare two strings
+
+* Exercise 1
 
 Write example programs to understand what they do. Use the man pages to see how they are called by typing `man strcat`, for example.
 
-* At this time during the lesson, the student should know enough about loops, variables, and arrays to be able to write these functions from scratch. Try to do this on a white board or on paper.
+* Project 1
 
-* Exercises:
+Write each string function described above from scratch.
+
+At this time during the lesson, the student should know enough about loops, variables, and arrays to be able to write these functions from scratch. First do this on a white board or on paper, then transfer the code to the computer and see if it works.
+
+Be rigorous about writing test cases. Test as much of the strange (corner) cases as possible.
+
+* Exercise 2:
 
   * count the number of vowels, consonants
   * Find the Frequency of Characters in a String
