@@ -25,11 +25,11 @@ Typical functions for string manipulation:
 * strstr - find a string inside another string (needle in a haystack)
 * strcmp - compare two strings
 
-* Exercise 1
+# Exercise 1
 
 Write example programs to understand what they do. Use the man pages to see how they are called by typing `man strcat`, for example.
 
-* Project 1
+# Project 1
 
 Write each string function described above from scratch.
 
@@ -37,8 +37,10 @@ At this time during the lesson, the student should know enough about loops, vari
 
 Be rigorous about writing test cases. Test as much of the strange (corner) cases as possible.
 
-* Exercise 2:
+# Exercise 2:
 
-  * count the number of vowels, consonants
-  * Find the Frequency of Characters in a String
-  * Remove Characters in String Except Alphabets (hint: alphabet characters are together)
+Complete a series of these exercises:
+
+* count the number of vowels, consonants
+* Find the Frequency of Characters in a String
+* Remove Characters in String Except Alphabets (hint: alphabet characters are together)
