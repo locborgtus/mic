@@ -43,7 +43,21 @@ myStruct structVar;
 
 ```
 
+We can make an array of structs. 
+
+```c
+
+myStruct structArray[20];
+
+structArray[0].i = 10;
+
+```
+
 # Exercise 1
+
+Define an example struct. Put an integer, a float, and a char in it. Make an array out of the struct. Write a program that fills the array with sample data, then print it out.
+
+# Project 1
 
 Define a struct that holds the contact for a person, like an address book entry. Come up with fields that are useful.
 
