@@ -31,6 +31,18 @@ printf("%d %c\n", myStructVar.num, myStructVar.c);
 
 ```
 
+Use the `typedef` keyword in front to make a struct into a type (like an int, or float). It doesn't change anything, just makes it shorter to type.
+
+```c
+
+typedef struct myStruct {
+  int i;
+} myStruct;
+
+myStruct structVar;
+
+```
+
 # Exercise 1
 
 Define a struct that holds the contact for a person, like an address book entry. Come up with fields that are useful.
