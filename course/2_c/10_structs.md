@@ -61,6 +61,10 @@ Define an example struct. Put an integer, a float, and a char in it. Make an arr
 
 Test passing in a struct variable into a function. Change the struct variable inside the function, and check what happens to the struct variable inside and outside the function. Make sure `return` on a struct variable does what you expect it to do.
 
+## Exercuse 3
+
+Use the `sizeof()` function to check how big something is. So for example, `sizeof(char)` will give you 1 byte. Check the other data types to see. Finally, check `sizeof()` on a struct to see what happens. It should give you a sum of all the fields inside the struct.
+
 ## Project 1
 
 Define a struct that holds the contact for a person, like an address book entry. Come up with fields that are useful.
