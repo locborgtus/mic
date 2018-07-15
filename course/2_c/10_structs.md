@@ -59,7 +59,9 @@ Define an example struct. Put an integer, a float, and a char in it. Make an arr
 
 ## Exercise 2
 
-Test passing in a struct variable into a function. Change the struct variable inside the function, and check what happens to the struct variable inside and outside the function. Make sure `return` on a struct variable does what you expect it to do.
+Test passing in a struct variable into a function. Change the struct variable inside the function, and check what happens to the struct variable inside and outside the function. The struct should not change.
+
+Test return on a struct from a function.
 
 ## Exercuse 3
 
