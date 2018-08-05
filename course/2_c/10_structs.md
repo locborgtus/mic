@@ -74,7 +74,7 @@ Test passing in a struct variable into a function. Change the struct variable in
 
 Test return on a struct from a function.
 
-## Exercuse 3
+## Exercise 3
 
 Use the `sizeof()` function to check how big something is. So for example, `sizeof(char)` will give you 1 byte. Check the other data types to see. Finally, check `sizeof()` on a struct to see what happens. It should give you a sum of all the fields inside the struct.
 
