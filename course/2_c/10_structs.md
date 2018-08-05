@@ -90,4 +90,6 @@ Create an application that holds a set of 2D geometric shapes. The most basic bu
 
 Create structs that define points and lines. Then create a struct that holds geometric shapes. Create functions that calculates some information from these geometric shapes. For example, how many points and perimeter.
 
+The point of this project is to put structs inside other structs.
+
 Distance between 2 points = sqrt((x2 - x1)^2 + (y2 - y1)^2))
