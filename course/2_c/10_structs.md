@@ -57,6 +57,17 @@ structArray[0].i = 10;
 
 Define an example struct. Put an integer, a float, and a char in it. Make an array out of the struct. Write a program that fills the array with sample data, then print it out.
 
+Tip: you can initialize a struct's values when you create it:
+
+```c
+typedef struct S {
+  int i;
+  float f;
+} S;
+
+S s1 = { 0, 1.23 }
+```
+
 ## Exercise 2
 
 Test passing in a struct variable into a function. Change the struct variable inside the function, and check what happens to the struct variable inside and outside the function. The struct should not change.
