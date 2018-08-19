@@ -80,12 +80,6 @@ Use the `sizeof()` function to check how big something is. So for example, `size
 
 ## Project 1
 
-Define a struct that holds the contact for a person, like an address book entry. Come up with fields that are useful.
-
-Write a sample application that writes and reads the struct. Use header files to define the struct, then a main application that uses the struct.
-
-## Project 2
-
 Create an application that holds a set of 2D geometric shapes. The most basic building block is a point, then lines.
 
 Create structs that define points and lines. Then create a struct that holds geometric shapes. Create functions that calculates some information from these geometric shapes. For example, how many points and perimeter.
@@ -93,3 +87,9 @@ Create structs that define points and lines. Then create a struct that holds geo
 The point of this project is to put structs inside other structs.
 
 Distance between 2 points = sqrt((x2 - x1)^2 + (y2 - y1)^2))
+
+## Project 2
+
+Define a struct that holds the contact for a person, like an address book entry. Come up with fields that are useful.
+
+Write a sample application that writes and reads the struct. Use header files to define the struct, then a main application that uses the struct.
