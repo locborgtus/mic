@@ -1,5 +1,51 @@
 # Basic Start #
 
+## Start programming Python ##
+
+### Learn to print ###
+
+Open `IDLE`. Click the berry, then `Programming`, then `Python 2 (IDLE)`. There should be a window called shell.
+
+Enter code to print something:
+
+```python
+print "hello world"
+```
+
+The text inside the quotes are called strings. They are letter, numbers, or other symbols, like punctuation.
+
+You can use single quoute or double quotes:
+```python
+print 'good morning'
+print "neighbor"
+```
+
+You can also print many strings by adding them together:
+
+```python
+print "Hello " + "you"
+```
+
+The computer is pretty dumb. If you don't give it the exact instructions, it doesn't understand. Try printing a string where the single and double quotes don't match up.
+
+```python
+print "hello world'
+```
+
+These mistakes happen all the time. Get used to dealing with them by fixing them so your program can run.
+
+Let's start using things to keep our data. These things are called variables. Variables holds data that can change over time.
+
+```python
+name = "Simon
+age = 5
+print "hello world" + name + "my age is" + age
+```
+
+In this case, name is holding the string "simon", and age is holding the number 5.
+
+You can also do arithmetic. 
+
 ## Start Minecraft ##
 
 1. Click the left hand corner
@@ -29,32 +75,6 @@ Resize the window by using `tab` to about half the screen, on the right side.
 
 Remember to get out using `tab`, or `alt-tab`. If you can't look around in minecraft, make sure to click on the mouse.
 
-## Start programming Python ##
-
-### Learn to print ###
-
-* Open `IDLE`. Click the berry, then `Programming`, then `Python 2 (IDLE)`
-
-Enter code to print something:
-
-```python
-print "hello world"
-```
-
-The text inside the quotes are called strings. They are letter, numbers, or other symbols, like punctuation.
-
-You can use single quoute or double quotes:
-```python
-print 'good morning'
-print "neighbor"
-```
-
-You can also print many strings by adding them together:
-
-```python
-print "Hello " + "you"
-```
-
 ### Make a new program ###
 
 * Explain what folders and files are, as simple as possible
@@ -68,21 +88,6 @@ print "Hello " + "you"
 Push `F5` to run the program. When asked to save, click `OK` or hit `enter` key.
 
 `print` is a function. It does something for us. In this case, prints to a window called "python shell".
-
-Print multiple things:
-
-```python
-name = "Simon"
-print "hello world", name
-```
-
-More complicated:
-
-```python
-name = "Simon
-age = 39
-print "hello world", name, "my age is", age
-```
 
 Comments:
 
