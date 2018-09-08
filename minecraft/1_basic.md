@@ -31,6 +31,30 @@ Remember to get out using `tab`, or `alt-tab`. If you can't look around in minec
 
 ## Start programming Python ##
 
+### Learn to print ###
+
+* Open `IDLE`. Click the berry, then `Programming`, then `Python 2 (IDLE)`
+
+Enter code to print something:
+
+```python
+print "hello world"
+```
+
+The text inside the quotes are called strings. They are letter, numbers, or other symbols, like punctuation.
+
+You can use single quoute or double quotes:
+```python
+print 'good morning'
+print "neighbor"
+```
+
+You can also print many strings by adding them together:
+
+```python
+print "Hello " + "you"
+```
+
 ### Make a new program ###
 
 * Explain what folders and files are, as simple as possible
@@ -40,12 +64,6 @@ Remember to get out using `tab`, or `alt-tab`. If you can't look around in minec
 * Create a new file in IDLE, then save it as `hello.py`
 
 ### Basic Python ###
-
-Enter code to print something:
-
-```python
-print "hello world"
-```
 
 Push `F5` to run the program. When asked to save, click `OK` or hit `enter` key.
 
