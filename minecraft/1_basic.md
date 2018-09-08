@@ -9,27 +9,27 @@ Open `IDLE`. Click the berry, then `Programming`, then `Python 2 (IDLE)`. There 
 Enter code to print something:
 
 ```python
-print "hello world"
+print("hello world")
 ```
 
 The text inside the quotes are called strings. They are letter, numbers, or other symbols, like punctuation.
 
 You can use single quoute or double quotes:
 ```python
-print 'good morning'
-print "neighbor"
+print('good morning')
+print("neighbor")
 ```
 
 You can also print many strings by adding them together:
 
 ```python
-print "Hello " + "you"
+print("Hello " + "you")
 ```
 
 The computer is pretty dumb. If you don't give it the exact instructions, it doesn't understand. Try printing a string where the single and double quotes don't match up.
 
 ```python
-print "hello world'
+print("hello world')
 ```
 
 These mistakes happen all the time. Get used to dealing with them by fixing them so your program can run.
@@ -39,10 +39,12 @@ Let's start using things to keep our data. These things are called variables. Va
 ```python
 name = "Simon
 age = 5
-print "hello world" + name + "my age is" + age
+print("hello world" + name + "my age is" + age)
 ```
 
 In this case, name is assigned to the string "simon", and age is assigned to the number 5.
+
+`print` is a function. It takes inputs inside the parenthesis, and outputs something on the screen. Functions do things for you, you will use many more functions later on.
 
 ### Arithmetic
 
