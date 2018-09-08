@@ -185,9 +185,13 @@ print pos.x, pos.y, pos.z
 print pos
 ```
 
+Explain again what a function does. `getTilePos()` is a function. It takes no input, but outputs data that we save into a variable called `pos`.
+
 The dot notation means a sub-part of something. So in this case, position `pos` contains x, y, and z.
 
 Explain coordinate system. X and Z is the flat land. Y is your height.
+
+Ask if `pos` name can be changed.
 
 Let's teleport. Add this line to the bottom of your program:
 
