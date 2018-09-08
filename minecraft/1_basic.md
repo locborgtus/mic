@@ -185,6 +185,8 @@ print pos.x, pos.y, pos.z
 print pos
 ```
 
+The dot notation means a sub-part of something. So in this case, position `pos` contains x, y, and z.
+
 Explain coordinate system. X and Z is the flat land. Y is your height.
 
 Let's teleport. Add this line to the bottom of your program:
