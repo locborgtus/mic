@@ -81,7 +81,7 @@ print 5
 print 5.
 ```
 
-Practice: calculate the cost of your shopping basket if you have 5 oranges, and they are 25 cents each. Come up with your favorite fruit, give them a price, and how many do you want. Print out the sum of the cost the entire shopping basket with the oranges and your favorite fruit.
+Practice: calculate the cost of your shopping basket if you have 5 oranges, and they are 25 cents each. Come up with your favorite fruit, give them a price, and how many do you want. Print out the sum of the cost the entire shopping basket with the oranges and your favorite fruit. Hint: use variables to keep the number of fruits and their costs. Then print out the product and the sum.
 
 Dividing is different when the number types are different. If dividing integers, the result are round-down whole numbers. If dividing floats, you will get decimals. Try it yourself.
 
@@ -144,20 +144,11 @@ Remember to get out using `tab`, or `alt-tab`. If you can't look around in minec
 
 ### Basic Python ###
 
+Running a program in a file is a little different than in the shell.
+
 Push `F5` to run the program. When asked to save, click `OK` or hit `enter` key.
 
-`print` is a function. It does something for us. In this case, prints to a window called "python shell".
-
-Comments:
-
-```python
-# this line gets ignored. this helps us explain what our program does.
-print "hello world"
-```
-
-The computer is dumb. Try getting rid of a `"` in a print line, and run the program. See what happens.
-
-Close this file when done.
+Practice: name your favorite food. Use variables to keep how much they cost and how many you want to get. Then share the food with your family by printing out how much of that food each person gets.
 
 ## Hello world in Minecraft ##
 
