@@ -61,6 +61,50 @@ sum += 10
 
 The short hand is useful because a lot of time we add something to ourselves. Think of an example (Hint: your age).
 
+### Comments
+
+Comments are useful to explain what you did. Some times our statements can be complicated. Use a hastag `#` at the beginning of a line to write comments.
+
+```python
+# adding 10 to the variable called sum
+sum += 10
+```
+
+### Numbers
+
+There are 2 different types of numbers in Python, integers and decimals (called float). Variables can hold these.
+
+By default, a whole number is integer. You can make them decimals by putting a . after them.
+
+```python
+print 5
+print 5.
+```
+
+Practice: calculate the cost of your shopping basket if you have 5 oranges, and they are 25 cents each. Come up with your favorite fruit, give them a price, and how many do you want. Print out the sum of the cost the entire shopping basket with the oranges and your favorite fruit.
+
+Dividing is different when the number types are different. If dividing integers, the result are round-down whole numbers. If dividing floats, you will get decimals. Try it yourself.
+
+### Multi-line text
+
+You can also have multi-line strings by using 3 single or double quotes:
+
+```python
+text = '''
+hi
+you
+there
+'''
+
+print text
+```
+
+### Boolean
+
+Boolean data can be `True` or `False`. `True` behaves the same as integer 1, and `False` behaves same is integer 0. Variables can hold Boolean the same as other data types.
+
+Try making a boolean variable, then adding a number to it to see if they are the same as 0 and 1.
+
 ## Start Minecraft ##
 
 1. Click the left hand corner
