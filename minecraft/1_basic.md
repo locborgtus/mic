@@ -42,9 +42,24 @@ age = 5
 print "hello world" + name + "my age is" + age
 ```
 
-In this case, name is holding the string "simon", and age is holding the number 5.
+In this case, name is assigned to the string "simon", and age is assigned to the number 5.
 
-You can also do arithmetic. 
+### Arithmetic
+
+What are the arithmetic types you know? They are represented by `+ - * /`.
+
+Practice: Create 4 variables called `sum, difference, product, quotient` by making up numbers and using those arithmetic.
+
+There's also something called modulo, represented by `%`. It is the remainder after division is done. Example, 12 % 5 = 2. Try it.
+
+You can change variables by re-assigning them, or by using a shorthand:
+
+```python
+sum = sum + 10
+sum += 10
+```
+
+The short hand is useful because a lot of time we add something to ourselves. Think of an example (Hint: your age).
 
 ## Start Minecraft ##
 
