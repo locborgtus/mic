@@ -37,7 +37,7 @@ These mistakes happen all the time. Get used to dealing with them by fixing them
 Let's start using things to keep our data. These things are called variables. Variables holds data that can change over time.
 
 ```python
-name = "Simon
+name = "Simon"
 age = 5
 print("hello world" + name + "my age is" + age)
 ```
