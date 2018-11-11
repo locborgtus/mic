@@ -227,7 +227,9 @@ mc.player.setTilePos(x + 5, y, z)
 
 In this case, x doesn't change. How do you prove it didn't change?
 
-Exercise: teleport to your current position, but forward in x by 10. Hint: you can't just use a number. You have to use your current position to start.
+### Exercise
+
+Teleport to your current position, but forward in x by 10. Hint: you can't just use a number. You have to use your current position to start.
 
 Go into flight mode with double space. Post your current location to minecraft by entering this line at the end of your file:
 
