@@ -368,7 +368,9 @@ GLOWING_OBSIDIAN    246
 NETHER_REACTOR_CORE 247
 ```
 
-Activity: Add a block next to you. Remember how to find where you are. Once you've added one, pick another block type and see if the block changes.
+### Exercise
+
+Add a block next to you. Remember how to find where you are. Once you've added one, pick another block type and see if the block changes.
 
 You can also get them list from Python.
 
