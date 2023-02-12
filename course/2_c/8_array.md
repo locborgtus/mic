@@ -188,6 +188,10 @@ void shiftRight(int array[], int pos, int value)
 }
 ```
 
+## Exercise
+
+FIFO, LIFO, and circular buffers
+
 ## Exercise / Homework
 
 Implement a `queue` and a `stack`. A Queue uses an array to keep track of elements in a last in, first out way. Also called FIFO. A stack also stores elements, but in a first in, first out way. Also called LIFO.
