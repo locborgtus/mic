@@ -191,6 +191,7 @@ void shiftRight(int array[], int pos, int value)
 ## Exercise
 
 FIFO, LIFO, and circular buffers
+CSV parsing
 
 ## Exercise / Homework
 
