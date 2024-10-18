@@ -3,6 +3,7 @@
 #define MAX_QUEUE_SIZE 10
 
 // circular queue
+// use 2 pointers, front and rear
 
 typedef struct {
   int data[MAX_QUEUE_SIZE];
@@ -45,6 +46,7 @@ int enqueue(Queue *q, int n) {
       q->front = 0;
     }
 
+    // elements are added to the rear
     q->rear = (q->rear + 1) % MAX_QUEUE_SIZE; // more rear pointer forward
     q->data[q->rear] = n;
 
@@ -52,7 +54,8 @@ int enqueue(Queue *q, int n) {
   }
 }
 
-// remove from queue (tail)
+// remove from queue
+// data is removed from the front
 int dequeue(Queue *q) {
   if (isQueueEmpty(q)) {
     printf("Queue is empty\n");
@@ -64,6 +67,7 @@ int dequeue(Queue *q) {
       // empty queue
       q->front = q->rear = -1;
     } else {
+      // advance the front pointer closer to the rear
       q->front = (q->front + 1) % MAX_QUEUE_SIZE;
     }
 
