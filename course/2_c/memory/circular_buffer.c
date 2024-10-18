@@ -28,7 +28,7 @@ void enqueueCircBuffer(CircBuffer *buf, int n) {
     buf->head = (buf->head + 1) % MAX_ELEMENTS;
   }
 
-  // otherwise, advance the tail
+  // always advance the tail
   // take care of wrap around
   buf->tail = (buf->tail + 1) % MAX_ELEMENTS;
 
@@ -39,12 +39,13 @@ void enqueueCircBuffer(CircBuffer *buf, int n) {
 // remove
 int dequeueCircBuffer(CircBuffer *buf) {
   // check if buffer empty
+  // check fullness because head and tail is same when full
   if (buf->head == buf->tail && !buf->full) {
     printf("buffer empty\n");
     return -1;
   }
 
-  // remove data
+  // remove data from head, and advance head pos
   int ret = buf->data[buf->head];
   buf->head = (buf->head + 1) % MAX_ELEMENTS;
 
